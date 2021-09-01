@@ -12,13 +12,16 @@ use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\SoftDeletes;
 use Illuminate\Foundation\Auth\User as Authenticatable;
 use Illuminate\Notifications\Notifiable;
+use LdapRecord\Laravel\Auth\LdapAuthenticatable;
+use LdapRecord\Laravel\Auth\AuthenticatesWithLdap;
 
-class User extends Authenticatable
+class User extends Authenticatable implements LdapAuthenticatable
 {
     use HasFactory;
     use HasAdvancedFilter;
     use SoftDeletes;
     use Notifiable;
+    use AuthenticatesWithLdap;
 
     public $table = 'users';
 
