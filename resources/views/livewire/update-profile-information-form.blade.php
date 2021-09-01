@@ -7,7 +7,7 @@
         <form wire:submit.prevent="updateProfileInformation" class="w-full">
             <div class="form-group px-4">
                 <label class="form-label" for="name">{{ __('global.user_name') }}</label>
-                <input class="form-control" id="name" type="text" wire:model.defer="state.name" autocomplete="name">
+                <input disabled class="form-control" id="name" type="text" wire:model.defer="state.name" autocomplete="name">
                 @error('state.name')
                     <span class="text-red-500">{{ $message }}</span>
                 @enderror
@@ -15,14 +15,14 @@
 
             <div class="form-group px-4">
                 <label class="form-label" for="email">{{ __('global.login_email') }}</label>
-                <input class="form-control" id="email" type="text" wire:model.defer="state.email" autocomplete="email">
+                <input disabled class="form-control" id="email" type="text" wire:model.defer="state.email" autocomplete="email">
                 @error('state.email')
                     <span class="text-red-500">{{ $message }}</span>
                 @enderror
             </div>
 
             <div class="form-group px-4 flex items-center">
-                <button class="btn btn-indigo mr-3">
+                <butto disabled class="btn btn-indigo mr-3 hidden">
                     {{ __('global.save') }}
                 </button>
 

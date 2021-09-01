@@ -9,7 +9,10 @@
                     <div class="rounded-t mb-0 px-6 py-6">
                         <div class="text-center mb-3">
                             <h6 class="text-blueGray-500 text-sm font-bold">
-                                {{ __('global.login') }}
+                                Портал - Проект КМГ РУ
+                            </h6>
+                            <h6 class="mt-2 text-sm font-normal text-blueGray-600">
+                                Нужно ввести доменный email и пароль
                             </h6>
                         </div>
                         <hr class="mt-6 border-b-1 border-blueGray-300" />
@@ -23,9 +26,9 @@
                                 </label>
                                 <input id="email" name="email" type="email" class="border-0 px-3 py-3 placeholder-blueGray-300 text-blueGray-600 bg-white rounded text-sm shadow focus:outline-none focus:ring w-full {{ $errors->has('email') ? ' ring ring-red-300' : '' }}" placeholder="{{ __('global.login_email') }}" required autocomplete="email" autofocus value="{{ old('email') }}" />
                                 @error('email')
-                                    <div class="text-red-500">
-                                        <small>{{ $message }}</small>
-                                    </div>
+                                <div class="text-red-500">
+                                    <small>{{ $message }}</small>
+                                </div>
                                 @enderror
                             </div>
                             <div class="relative w-full mb-3">
@@ -34,9 +37,9 @@
                                 </label>
                                 <input id="password" name="password" type="password" class="border-0 px-3 py-3 placeholder-blueGray-300 text-blueGray-600 bg-white rounded text-sm shadow focus:outline-none focus:ring w-full {{ $errors->has('password') ? ' ring ring-red-300' : '' }}" placeholder="{{ __('global.login_password') }}" required autocomplete="current-password" />
                                 @error('password')
-                                    <span class="text-red-500">
-                                        <small>{{ $message }}</small>
-                                    </span>
+                                <span class="text-red-500">
+                                    <small>{{ $message }}</small>
+                                </span>
                                 @enderror
                             </div>
                             <div>
@@ -54,19 +57,19 @@
                         </form>
                     </div>
                 </div>
-                <div class="flex flex-wrap mt-6">
+                <div class="flex flex-wrap mt-6 hidden">
                     <div class="w-1/2">
                         @if(Route::has('password.request'))
-                            <a href="{{ route('password.request') }}" class="text-blueGray-200">
-                                <small>{{ __('global.forgot_password') }}</small>
-                            </a>
+                        <a href="{{ route('password.request') }}" class="text-blueGray-200">
+                            <small>{{ __('global.forgot_password') }}</small>
+                        </a>
                         @endif
                     </div>
                     <div class="w-1/2 text-right">
                         @if(Route::has('register'))
-                            <a href="{{ route('register') }}" class="text-blueGray-200">
-                                <small>{{ __('global.register') }}</small>
-                            </a>
+                        <a href="{{ route('register') }}" class="text-blueGray-200">
+                            <small>{{ __('global.register') }}</small>
+                        </a>
                         @endif
                     </div>
                 </div>

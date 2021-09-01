@@ -4,12 +4,12 @@
     </h6>
 
     <div class="flex flex-wrap">
-        <form wire:submit.prevent="updatePassword" class="w-full">
+        <form wire:submit.prevent="updatePassword" class="w-full ">
             <div class="form-group px-4">
                 <label class="form-label" for="current_password">{{ __('global.current_password') }}</label>
                 <input class="form-control" id="current_password" type="password" wire:model.defer="state.current_password" autocomplete="current-password">
                 @error('state.current_password')
-                    <span class="text-red-500">{{ $message }}</span>
+                <span class="text-red-500">{{ $message }}</span>
                 @enderror
             </div>
 
@@ -17,7 +17,7 @@
                 <label class="form-label" for="new_password">{{ __('global.new_password') }}</label>
                 <input class="form-control" id="new_password" type="password" wire:model.defer="state.password" autocomplete="new-password">
                 @error('state.password')
-                    <span class="text-red-500">{{ $message }}</span>
+                <span class="text-red-500">{{ $message }}</span>
                 @enderror
             </div>
 
