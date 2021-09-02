@@ -32,6 +32,13 @@
                     {{ trans('global.my_profile') }}
                 </a>
                 <div class="h-0 my-2 border border-solid border-blueGray-100"></div>
+                @if( session('impersonated_by') )
+                    <a href="{{ route('admin.impersonate_leave') }}"
+                        class="sidebar-nav text-sm py-2 px-4 font-normal block w-full whitespace-nowrap bg-transparent text-blueGray-700">
+                        <i class="fa-fw fas fa-sign-out-alt"></i>
+                        Отменить имперсонизацию
+                    </a>
+                @endif
                 <a href="#" onclick="event.preventDefault(); document.getElementById('logoutform').submit();"
                     class="sidebar-nav text-sm py-2 px-4 font-normal block w-full whitespace-nowrap bg-transparent text-blueGray-700">
                     <i class="fa-fw fas fa-sign-out-alt"></i>

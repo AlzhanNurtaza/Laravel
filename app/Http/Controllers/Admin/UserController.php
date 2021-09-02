@@ -7,6 +7,7 @@ use App\Models\User;
 use Gate;
 use Illuminate\Http\Request;
 use Illuminate\Http\Response;
+use Illuminate\Support\Facades\Auth;
 
 class UserController extends Controller
 {
@@ -38,5 +39,18 @@ class UserController extends Controller
         $user->load('roles');
 
         return view('admin.user.show', compact('user'));
+    }
+
+    public function impersonate($user_id)
+    {
+        $user = User::find($user_id);
+        Auth::user()->impersonate($user);
+        return redirect()->route('admin.home');
+    }
+
+    public function impersonate_leave()
+    {
+        Auth::user()->leaveImpersonation();
+        return redirect()->route('admin.users.index');
     }
 }

@@ -14,6 +14,7 @@ use Illuminate\Foundation\Auth\User as Authenticatable;
 use Illuminate\Notifications\Notifiable;
 use LdapRecord\Laravel\Auth\LdapAuthenticatable;
 use LdapRecord\Laravel\Auth\AuthenticatesWithLdap;
+use Lab404\Impersonate\Models\Impersonate;
 
 class User extends Authenticatable implements LdapAuthenticatable
 {
@@ -22,6 +23,7 @@ class User extends Authenticatable implements LdapAuthenticatable
     use SoftDeletes;
     use Notifiable;
     use AuthenticatesWithLdap;
+    use Impersonate;
 
     public $table = 'users';
 

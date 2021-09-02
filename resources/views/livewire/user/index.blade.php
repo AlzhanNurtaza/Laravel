@@ -107,6 +107,7 @@
                                             {{ trans('global.delete') }}
                                         </button>
                                     @endcan
+                                    <a href="{{ route('admin.impersonate', $user->id) }}"  class="btn btn-sm btn-rose mr-2">Impersonate</a>
                                 </div>
                             </td>
                         </tr>

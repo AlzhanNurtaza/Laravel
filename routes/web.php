@@ -23,6 +23,10 @@ Auth::routes(['register' => false]);
 Route::group(['prefix' => 'admin', 'as' => 'admin.', 'middleware' => ['auth']], function () {
     Route::get('/', [HomeController::class, 'index'])->name('home');
 
+    //Impersonate
+    Route::get('/impersonate/{user_id}', [UserController::class, 'impersonate'])->name('impersonate');
+    Route::get('/impersonate_leave', [UserController::class,'impersonate_leave'])->name('impersonate_leave');
+
     // Permissions
     Route::resource('permissions', PermissionController::class, ['except' => ['store', 'update', 'destroy']]);
 
