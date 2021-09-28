@@ -11,7 +11,7 @@ function getTicket()
 
     //$username =  'd.doszhanov';
     //$domain = 'KMG';
-    $url = "https://172.22.4.228:4243/qps/hdr/ticket?xrfkey=ABCDEFG123456789"; //env('SenseProxy');
+    $url = env('QLIK_HOST').":4243/qps/hdr/ticket?xrfkey=ABCDEFG123456789"; //env('SenseProxy');
 
     $domain = strtoupper($domain);
     $username = strtolower($username);
