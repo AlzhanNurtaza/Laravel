@@ -69,10 +69,6 @@ return [
         'title'          => 'КПД Ген. директора',
         'title_singular' => 'КПД Ген. директора',
     ],
-    'kpiZpp' => [
-        'title'          => 'КПД ЗПП',
-        'title_singular' => 'КПД ЗПП',
-    ],
     'kpiGenAnpz' => [
         'title'          => 'АНПЗ',
         'title_singular' => 'АНПЗ',
@@ -89,20 +85,16 @@ return [
         'title'          => 'КБ',
         'title_singular' => 'КБ',
     ],
-    'kpiZppAnpz' => [
-        'title'          => 'АНПЗ',
-        'title_singular' => 'АНПЗ',
+    'kpiZpp' => [
+        'title'          => 'КПД ЗПП',
+        'title_singular' => 'КПД ЗПП',
     ],
-    'kpiZppPnhz' => [
-        'title'          => 'ПНХЗ',
-        'title_singular' => 'ПНХЗ',
+    'kpiKlpe' => [
+        'title'          => 'KLPE',
+        'title_singular' => 'KLPE',
     ],
-    'kpiZppPkop' => [
-        'title'          => 'ПКОП',
-        'title_singular' => 'ПКОП',
-    ],
-    'kpiZppCB' => [
-        'title'          => 'КБ',
-        'title_singular' => 'КБ',
+    'kpiKpi' => [
+        'title'          => 'KPI',
+        'title_singular' => 'KPI',
     ],
 ];

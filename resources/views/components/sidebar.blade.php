@@ -81,7 +81,7 @@
                 @endcan
                 @can('kpi_general_access')
                     <li class="items-center">
-                        <a class="has-sub {{ request()->is("admin/kpi-gen-anpzs*")||request()->is("admin/kpi-gen-pnhzs*")||request()->is("admin/kpi-gen-pkops*")||request()->is("admin/kpi-gen-c-bs*") ? "sidebar-nav-active" : "sidebar-nav" }}" href="#" onclick="window.openSubNav(this)">
+                        <a class="has-sub {{ request()->is("admin/kpi-gen-anpzs*")||request()->is("admin/kpi-gen-pnhzs*")||request()->is("admin/kpi-gen-pkops*")||request()->is("admin/kpi-gen-c-bs*")||request()->is("admin/kpi-klpes*")||request()->is("admin/kpi-kpis*") ? "sidebar-nav-active" : "sidebar-nav" }}" href="#" onclick="window.openSubNav(this)">
                             <i class="fa-fw fas c-sidebar-nav-icon fa-chart-line">
                             </i>
                             {{ trans('cruds.kpiGeneral.title') }}
@@ -120,6 +120,24 @@
                                         <i class="fa-fw c-sidebar-nav-icon far fa-chart-bar">
                                         </i>
                                         {{ trans('cruds.kpiGenCB.title') }}
+                                    </a>
+                                </li>
+                            @endcan
+                            @can('kpi_klpe_access')
+                                <li class="items-center">
+                                    <a class="{{ request()->is("admin/kpi-klpes*") ? "sidebar-nav-active" : "sidebar-nav" }}" href="{{ route("admin.kpi-klpes.index") }}">
+                                        <i class="fa-fw c-sidebar-nav-icon far fa-chart-bar">
+                                        </i>
+                                        {{ trans('cruds.kpiKlpe.title') }}
+                                    </a>
+                                </li>
+                            @endcan
+                            @can('kpi_kpi_access')
+                                <li class="items-center">
+                                    <a class="{{ request()->is("admin/kpi-kpis*") ? "sidebar-nav-active" : "sidebar-nav" }}" href="{{ route("admin.kpi-kpis.index") }}">
+                                        <i class="fa-fw c-sidebar-nav-icon far fa-chart-bar">
+                                        </i>
+                                        {{ trans('cruds.kpiKpi.title') }}
                                     </a>
                                 </li>
                             @endcan

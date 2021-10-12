@@ -9,6 +9,8 @@ use App\Http\Controllers\Admin\PermissionController;
 use App\Http\Controllers\Admin\KpiZppController;
 use App\Http\Controllers\Admin\RoleController;
 use App\Http\Controllers\Admin\UserController;
+use App\Http\Controllers\Admin\KpiKlpeController;
+use App\Http\Controllers\Admin\KpiKpiController;
 use App\Http\Controllers\Auth\UserProfileController;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Route;
@@ -22,7 +24,7 @@ Route::group(['prefix' => 'admin', 'as' => 'admin.', 'middleware' => ['auth']], 
 
     //Impersonate
     Route::get('/impersonate/{user_id}', [UserController::class, 'impersonate'])->name('impersonate');
-    Route::get('/impersonate_leave', [UserController::class,'impersonate_leave'])->name('impersonate_leave');
+    Route::get('/impersonate_leave', [UserController::class, 'impersonate_leave'])->name('impersonate_leave');
 
     // Permissions
     Route::resource('permissions', PermissionController::class, ['except' => ['store', 'update', 'destroy']]);
@@ -47,6 +49,12 @@ Route::group(['prefix' => 'admin', 'as' => 'admin.', 'middleware' => ['auth']], 
 
     // Kpi Zpp
     Route::resource('kpi-zpps', KpiZppController::class, ['except' => ['store', 'update', 'destroy']]);
+
+    // Kpi Klpe
+    Route::resource('kpi-klpes', KpiKlpeController::class, ['except' => ['store', 'update', 'destroy']]);
+
+    // Kpi Kpi
+    Route::resource('kpi-kpis', KpiKpiController::class, ['except' => ['store', 'update', 'destroy']]);
 });
 
 Route::group(['prefix' => 'profile', 'as' => 'profile.', 'middleware' => ['auth']], function () {
