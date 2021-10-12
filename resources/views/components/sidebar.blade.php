@@ -25,6 +25,11 @@
 
 
             <!-- Divider -->
+            <div class="flex md:hidden">
+                @if(file_exists(app_path('Http/Livewire/LanguageSwitcher.php')))
+                    <livewire:language-switcher />
+                @endif
+            </div>
             <hr class="mb-6 md:min-w-full" />
             <!-- Heading -->
 
@@ -123,51 +128,31 @@
                 @endcan
                 @can('kpi_zpp_access')
                     <li class="items-center">
-                        <a class="has-sub {{ request()->is("admin/kpi-zpp-anpzs*")||request()->is("admin/kpi-zpp-pnhzs*")||request()->is("admin/kpi-zpp-pkops*")||request()->is("admin/kpi-zpp-c-bs*") ? "sidebar-nav-active" : "sidebar-nav" }}" href="#" onclick="window.openSubNav(this)">
-                            <i class="fa-fw fas c-sidebar-nav-icon fa-chart-line">
+                        <a class="{{ request()->is("admin/kpi-zpps*") ? "sidebar-nav-active" : "sidebar-nav" }}" href="{{ route("admin.kpi-zpps.index") }}">
+                            <i class="fa-fw c-sidebar-nav-icon far fa-chart-bar">
                             </i>
                             {{ trans('cruds.kpiZpp.title') }}
                         </a>
-                        <ul class="ml-4 subnav hidden">
-                            @can('kpi_zpp_anpz_access')
-                                <li class="items-center">
-                                    <a class="{{ request()->is("admin/kpi-zpp-anpzs*") ? "sidebar-nav-active" : "sidebar-nav" }}" href="{{ route("admin.kpi-zpp-anpzs.index") }}">
-                                        <i class="fa-fw c-sidebar-nav-icon far fa-chart-bar">
-                                        </i>
-                                        {{ trans('cruds.kpiZppAnpz.title') }}
-                                    </a>
-                                </li>
-                            @endcan
-                            @can('kpi_zpp_pnhz_access')
-                                <li class="items-center">
-                                    <a class="{{ request()->is("admin/kpi-zpp-pnhzs*") ? "sidebar-nav-active" : "sidebar-nav" }}" href="{{ route("admin.kpi-zpp-pnhzs.index") }}">
-                                        <i class="fa-fw c-sidebar-nav-icon far fa-chart-bar">
-                                        </i>
-                                        {{ trans('cruds.kpiZppPnhz.title') }}
-                                    </a>
-                                </li>
-                            @endcan
-                            @can('kpi_zpp_pkop_access')
-                                <li class="items-center">
-                                    <a class="{{ request()->is("admin/kpi-zpp-pkops*") ? "sidebar-nav-active" : "sidebar-nav" }}" href="{{ route("admin.kpi-zpp-pkops.index") }}">
-                                        <i class="fa-fw c-sidebar-nav-icon far fa-chart-bar">
-                                        </i>
-                                        {{ trans('cruds.kpiZppPkop.title') }}
-                                    </a>
-                                </li>
-                            @endcan
-                            @can('kpi_zpp_c_b_access')
-                                <li class="items-center">
-                                    <a class="{{ request()->is("admin/kpi-zpp-c-bs*") ? "sidebar-nav-active" : "sidebar-nav" }}" href="{{ route("admin.kpi-zpp-c-bs.index") }}">
-                                        <i class="fa-fw c-sidebar-nav-icon far fa-chart-bar">
-                                        </i>
-                                        {{ trans('cruds.kpiZppCB.title') }}
-                                    </a>
-                                </li>
-                            @endcan
-                        </ul>
                     </li>
                 @endcan
+
+                @if(file_exists(app_path('Http/Controllers/Auth/UserProfileController.php')))
+                    @can('auth_profile_edit')
+                        <li class="items-center">
+                            <a href="{{ route("profile.show") }}" class="{{ request()->is("profile") ? "sidebar-nav-active" : "sidebar-nav" }}">
+                                <i class="fa-fw c-sidebar-nav-icon fas fa-user-circle"></i>
+                                {{ trans('global.my_profile') }}
+                            </a>
+                        </li>
+                    @endcan
+                @endif
+
+                <li class="items-center">
+                    <a href="#" onclick="event.preventDefault(); document.getElementById('logoutform').submit();" class="sidebar-nav">
+                        <i class="fa-fw fas fa-sign-out-alt"></i>
+                        {{ trans('global.logout') }}
+                    </a>
+                </li>
             </ul>
         </div>
     </div>
