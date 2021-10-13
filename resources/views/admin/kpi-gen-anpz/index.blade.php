@@ -31,49 +31,49 @@
     <div class="flex flex-wrap" id="wrapper-for-text-pink">
         <div class="w-full">
             <ul class="flex mb-0 list-none flex-wrap pt-3 p-4 flex-row">
-                <li class="-mb-px mr-2 last:mr-0 flex-auto text-center">
+                <li class="-mb-px mr-2 last:mr-0 flex-auto text-center mt-4">
                     <a class="text-xs font-bold uppercase px-5 py-3 shadow-lg rounded block leading-normal text-white bg-pink-600 cursor-pointer"
                         data-tab-toggle="tab0" onclick="changeAtiveTab(event,'wrapper-for-text-pink','pink','tab0')">
                         Сводная информация
                     </a>
                 </li>
-                <li class="-mb-px mr-2 last:mr-0 flex-auto text-center">
+                <li class="-mb-px mr-2 last:mr-0 flex-auto text-center mt-4">
                     <a class="text-xs font-bold uppercase px-5 py-3 shadow-lg rounded block leading-normal text-pink-600 bg-white cursor-pointer"
                         data-tab-toggle="tab1" onclick="changeAtiveTab(event,'wrapper-for-text-pink','pink','tab1')">
                         OPEX/CAPEX
                     </a>
                 </li>
-                <li class="-mb-px mr-2 last:mr-0 flex-auto text-center">
+                <li class="-mb-px mr-2 last:mr-0 flex-auto text-center mt-4">
                     <a class="text-xs font-bold uppercase px-5 py-3 shadow-lg rounded block leading-normal text-pink-600 bg-white cursor-pointer"
                         data-tab-toggle="tab2" onclick="changeAtiveTab(event,'wrapper-for-text-pink','pink','tab2')">
                         Обеспечение надежности
                     </a>
                 </li>
-                <li class="-mb-px mr-2 last:mr-0 flex-auto text-center">
+                <li class="-mb-px mr-2 last:mr-0 flex-auto text-center mt-4">
                     <a class="text-xs font-bold uppercase px-5 py-3 shadow-lg rounded block leading-normal text-pink-600 bg-white cursor-pointer"
                         data-tab-toggle="tab3" onclick="changeAtiveTab(event,'wrapper-for-text-pink','pink','tab3')">
                         Займы
                     </a>
                 </li>
-                <li class="-mb-px mr-2 last:mr-0 flex-auto text-center">
+                <li class="-mb-px mr-2 last:mr-0 flex-auto text-center mt-4">
                     <a class="text-xs font-bold uppercase px-5 py-3 shadow-lg rounded block leading-normal text-pink-600 bg-white cursor-pointer"
                         data-tab-toggle="tab4" onclick="changeAtiveTab(event,'wrapper-for-text-pink','pink','tab4')">
                         Tazalyk
                     </a>
                 </li>
-                <li class="-mb-px mr-2 last:mr-0 flex-auto text-center">
+                <li class="-mb-px mr-2 last:mr-0 flex-auto text-center mt-4">
                     <a class="text-xs font-bold uppercase px-5 py-3 shadow-lg rounded block leading-normal text-pink-600 bg-white cursor-pointer"
                         data-tab-toggle="tab5" onclick="changeAtiveTab(event,'wrapper-for-text-pink','pink','tab5')">
                         Закупки
                     </a>
                 </li>
-                <li class="-mb-px mr-2 last:mr-0 flex-auto text-center">
+                <li class="-mb-px mr-2 last:mr-0 flex-auto text-center mt-4">
                     <a class="text-xs font-bold uppercase px-5 py-3 shadow-lg rounded block leading-normal text-pink-600 bg-white cursor-pointer"
                         data-tab-toggle="tab6" onclick="changeAtiveTab(event,'wrapper-for-text-pink','pink','tab6')">
                         LTIR
                     </a>
                 </li>
-                <li class="-mb-px mr-2 last:mr-0 flex-auto text-center">
+                <li class="-mb-px mr-2 last:mr-0 flex-auto text-center mt-4">
                     <a class="text-xs font-bold uppercase px-5 py-3 shadow-lg rounded block leading-normal text-pink-600 bg-white cursor-pointer"
                         data-tab-toggle="tab7" onclick="changeAtiveTab(event,'wrapper-for-text-pink','pink','tab7')">
                         СНЭ
@@ -156,20 +156,20 @@
                 <div class="hidden" data-tab-content="true" id="tab1">
                     <div class=" mx-auto w-full">
                         <div class="flex flex-wrap">
-                            <div class="w-full md:w-3/12 lg:w-3/12 xl:w-3/12 ">
+                            <div class="flex-auto w-full md:w-3/12 lg:w-3/12 xl:w-3/12 ">
                                 <div class="bg-white rounded shadow-lg  p-4 m-4 qs-object-tab"
                                     id="3e99ced6-9b4a-4095-8bc5-ac5754109d92" style="height: 200px">
                                 </div>
 
-                                <div class="bg-white rounded shadow-lg p-4 m-4 qs-object-tab"
+                                <div class="flex-auto bg-white rounded shadow-lg p-4 m-4 qs-object-tab"
                                     id="e70518d7-3ce8-4e0a-a4fd-f5b810b2d6e1" style="height: 200px">
                                 </div>
-                                <div class="bg-white rounded shadow-lg p-4 m-4 qs-object-tab" id="UCtjkJE"
+                                <div class="flex-auto bg-white rounded shadow-lg p-4 m-4 qs-object-tab" id="UCtjkJE"
                                     style="height: 200px">
                                 </div>
                             </div>
                             <div class="w-full md:w-9/12 lg:w-9/12 xl:w-9/12">
-                                <div class=" bg-white rounded shadow-lg qs-object-tab p-4 m-4" id="dCPFM"
+                                <div class="flex-auto  bg-white rounded shadow-lg qs-object-tab p-4 m-4" id="dCPFM"
                                     style="height: 630px">
                                 </div>
                             </div>
@@ -188,19 +188,19 @@
                     <div class=" mx-auto w-full">
                         <div class="flex flex-wrap">
                             <div class="w-full md:w-3/12 lg:w-3/12 xl:w-3/12 ">
-                                <div class="bg-white rounded shadow-lg  p-4 m-4 qs-object-tab" id="AXdUkP"
+                                <div class="flex-auto bg-white rounded shadow-lg  p-4 m-4 qs-object-tab" id="AXdUkP"
                                     style="height: 200px">
                                 </div>
 
-                                <div class="bg-white rounded shadow-lg p-4 m-4 qs-object-tab" id="GDNCJN"
+                                <div class="flex-auto bg-white rounded shadow-lg p-4 m-4 qs-object-tab" id="GDNCJN"
                                     style="height: 200px">
                                 </div>
-                                <div class="bg-white rounded shadow-lg p-4 m-4 qs-object-tab" id="aaTPFSv"
+                                <div class="flex-auto bg-white rounded shadow-lg p-4 m-4 qs-object-tab" id="aaTPFSv"
                                     style="height: 200px">
                                 </div>
                             </div>
-                            <div class="w-full md:w-9/12 lg:w-9/12 xl:w-9/12">
-                                <div class=" bg-white rounded shadow-lg qs-object-tab p-4 m-4" id="Lpxxjcv"
+                            <div class="w-full md:w-9/12 lg:w-9/12 xl:w-9/12 hidden md:block lg:block xl:block">
+                                <div class=" flex-auto bg-white rounded shadow-lg qs-object-tab p-4 m-4" id="Lpxxjcv"
                                     style="height: 630px">
                                 </div>
                             </div>
@@ -218,19 +218,19 @@
                     <div class=" mx-auto w-full">
                         <div class="flex flex-wrap">
                             <div class="w-full md:w-3/12 lg:w-3/12 xl:w-3/12 ">
-                                <div class="bg-white rounded shadow-lg  p-4 m-4 qs-object-tab" id="xdkDf"
+                                <div class="flex-auto bg-white rounded shadow-lg  p-4 m-4 qs-object-tab" id="xdkDf"
                                     style="height: 200px">
                                 </div>
 
-                                <div class="bg-white rounded shadow-lg p-4 m-4 qs-object-tab" id="cFtBWQ"
+                                <div class="flex-auto bg-white rounded shadow-lg p-4 m-4 qs-object-tab" id="cFtBWQ"
                                     style="height: 200px">
                                 </div>
-                                <div class="bg-white rounded shadow-lg p-4 m-4 qs-object-tab" id="UQCVKnh"
+                                <div class="flex-auto bg-white rounded shadow-lg p-4 m-4 qs-object-tab" id="UQCVKnh"
                                     style="height: 200px">
                                 </div>
                             </div>
                             <div class="w-full md:w-9/12 lg:w-9/12 xl:w-9/12">
-                                <div class=" bg-white rounded shadow-lg qs-object-tab p-4 m-4" id="hWbPW"
+                                <div class=" flex-auto bg-white rounded shadow-lg qs-object-tab p-4 m-4" id="hWbPW"
                                     style="height: 630px">
                                 </div>
                             </div>
@@ -246,19 +246,19 @@
                 </div>
                 <div class="hidden" data-tab-content="true" id="tab4">
                     <div class=" mx-auto w-full">
-                        <div class="flex ">
-                            <div class="w-full md:w-3/12 lg:w-3/12 xl:w-3/12 bg-white rounded shadow-lg  p-4 m-4 qs-object-tab" id="VLQaPMY"
-                                style="height: 200px">
+                        <div class="flex flex-wrap justify-between">
+                            <div class="flex-auto bg-white rounded shadow-lg  p-4 m-4 qs-object-tab" id="VLQaPMY"
+                                style="height: 250px">
                             </div>
 
-                            <div class="w-full md:w-3/12 lg:w-3/12 xl:w-3/12 bg-white rounded shadow-lg p-4 m-4 qs-object-tab" id="xmTMjh"
-                                style="height: 200px">
+                            <div class="flex-auto bg-white rounded shadow-lg p-4 m-4 qs-object-tab" id="xmTMjh"
+                                style="height: 250px">
                             </div>
-                            <div class="w-full md:w-3/12 lg:w-3/12 xl:w-3/12 bg-white rounded shadow-lg p-4 m-4 qs-object-tab" id="DjHEHFE"
-                                style="height: 200px">
+                            <div class="flex-auto bg-white rounded shadow-lg p-4 m-4 qs-object-tab" id="DjHEHFE"
+                                style="height: 250px">
                             </div>
-                            <div class="w-full md:w-3/12 lg:w-3/12 xl:w-3/12 bg-white rounded shadow-lg p-4 m-4 qs-object-tab" id="DHGLTbW"
-                                style="height: 200px">
+                            <div class="flex-auto bg-white rounded shadow-lg p-4 m-4 qs-object-tab hidden md:block lg:block xl:block" id="DHGLTbW"
+                                style="height: 250px">
                             </div>
                         </div>
 
@@ -274,19 +274,19 @@
                     <div class=" mx-auto w-full">
                         <div class="flex flex-wrap">
                             <div class="w-full md:w-3/12 lg:w-3/12 xl:w-3/12 ">
-                                <div class="bg-white rounded shadow-lg  p-4 m-4 qs-object-tab" id="KNpSp"
+                                <div class="flex-auto bg-white rounded shadow-lg  p-4 m-4 qs-object-tab" id="KNpSp"
                                     style="height: 200px">
                                 </div>
 
-                                <div class="bg-white rounded shadow-lg p-4 m-4 qs-object-tab" id="WXqeCMC"
+                                <div class="flex-auto bg-white rounded shadow-lg p-4 m-4 qs-object-tab" id="WXqeCMC"
                                     style="height: 200px">
                                 </div>
-                                <div class="bg-white rounded shadow-lg p-4 m-4 qs-object-tab" id="AxAsMB"
+                                <div class="flex-auto bg-white rounded shadow-lg p-4 m-4 qs-object-tab" id="AxAsMB"
                                     style="height: 200px">
                                 </div>
                             </div>
                             <div class="w-full md:w-9/12 lg:w-9/12 xl:w-9/12">
-                                <div class=" bg-white rounded shadow-lg qs-object-tab p-4 m-4" id="PRDufSE"
+                                <div class=" flex-auto bg-white rounded shadow-lg qs-object-tab p-4 m-4" id="PRDufSE"
                                     style="height: 630px">
                                 </div>
                             </div>
@@ -302,15 +302,15 @@
                 </div>
                 <div class="hidden" data-tab-content="true" id="tab6">
                     <div class=" mx-auto w-full">
-                        <div class="flex ">
-                            <div class="w-full md:w-4/12 lg:w-4/12 xl:w-4/12 bg-white rounded shadow-lg  p-4 m-4 qs-object-tab" id="scawKG"
+                        <div class="flex flex-wrap">
+                            <div class="flex-auto w-full md:w-3/12 lg:w-3/12 xl:w-3/12 bg-white rounded shadow-lg  p-4 m-4 qs-object-tab" id="scawKG"
                                 style="height: 200px">
                             </div>
 
-                            <div class="w-full md:w-4/12 lg:w-4/12 xl:w-4/12 bg-white rounded shadow-lg p-4 m-4 qs-object-tab" id="mcjaU"
+                            <div class="flex-auto w-full md:w-3/12 lg:w-3/12 xl:w-3/12 bg-white rounded shadow-lg p-4 m-4 qs-object-tab" id="mcjaU"
                                 style="height: 200px">
                             </div>
-                            <div class="w-full md:w-4/12 lg:w-4/12 xl:w-4/12 bg-white rounded shadow-lg p-4 m-4 qs-object-tab" id="VTyWF"
+                            <div class=" flex-auto w-full md:w-3/12 lg:w-3/12 xl:w-3/12 bg-white rounded shadow-lg p-4 m-4 qs-object-tab" id="VTyWF"
                                 style="height: 200px">
                             </div>
                         </div>
@@ -325,15 +325,15 @@
                 </div>
                 <div class="hidden" data-tab-content="true" id="tab7">
                     <div class=" mx-auto w-full">
-                        <div class="flex ">
-                            <div class="w-full md:w-4/12 lg:w-4/12 xl:w-4/12 bg-white rounded shadow-lg  p-4 m-4 qs-object-tab" id="fHHJLmx"
+                        <div class="flex flex-wrap">
+                            <div class="flex-auto w-full md:w-3/12 lg:w-3/12 xl:w-3/12 bg-white rounded shadow-lg  p-4 m-4 qs-object-tab" id="fHHJLmx"
                                 style="height: 200px">
                             </div>
 
-                            <div class="w-full md:w-4/12 lg:w-4/12 xl:w-4/12 bg-white rounded shadow-lg p-4 m-4 qs-object-tab" id="tWyXzm"
+                            <div class="flex-auto w-full md:w-3/12 lg:w-3/12 xl:w-3/12 bg-white rounded shadow-lg p-4 m-4 qs-object-tab" id="tWyXzm"
                                 style="height: 200px">
                             </div>
-                            <div class="w-full md:w-4/12 lg:w-4/12 xl:w-4/12 bg-white rounded shadow-lg p-4 m-4 qs-object-tab" id="mmASpG"
+                            <div class="flex-auto w-full md:w-3/12 lg:w-3/12 xl:w-3/12 bg-white rounded shadow-lg p-4 m-4 qs-object-tab" id="mmASpG"
                                 style="height: 200px">
                             </div>
                         </div>
