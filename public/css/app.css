@@ -2986,6 +2986,10 @@ select {
 		display: inline-block;
 	}
 
+	.lg\:h-630-px {
+		height: 630px;
+	}
+
 	.lg\:w-6\/12 {
 		width: 50%;
 	}
@@ -3020,6 +3024,10 @@ select {
 
 	.xl\:block {
 		display: block;
+	}
+
+	.xl\:h-630-px {
+		height: 630px;
 	}
 
 	.xl\:w-3\/12 {
