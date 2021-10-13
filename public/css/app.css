@@ -1906,6 +1906,9 @@ select {
 		max-width: 1280px;
 	}
 }
+.visible {
+	visibility: visible;
+}
 .invisible {
 	visibility: hidden;
 }
@@ -2949,6 +2952,10 @@ select {
 		margin-left: auto;
 	}
 
+	.lg\:block {
+		display: block;
+	}
+
 	.lg\:inline-block {
 		display: inline-block;
 	}
@@ -2985,6 +2992,10 @@ select {
 		margin-bottom: 0px;
 	}
 
+	.xl\:block {
+		display: block;
+	}
+
 	.xl\:w-3\/12 {
 		width: 25%;
 	}
@@ -2999,6 +3010,16 @@ select {
 
 	.xl\:w-9\/12 {
 		width: 75%;
+	}
+}
+@media (min-width: 1536px) {
+
+	.\32xl\:w-2\/12 {
+		width: 16.666667%;
+	}
+
+	.\32xl\:w-1\/12 {
+		width: 8.333333%;
 	}
 }
 
