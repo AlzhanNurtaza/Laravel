@@ -85,54 +85,47 @@
                     <div class=" mx-auto w-full">
                         <!-- Card stats -->
                         <div class="flex flex-wrap">
-                            <div class="w-full md:w-6/12 lg:w-4/12 xl:w-3/12 2xl:w-2/12 p-4">
-                                <div
-                                    class="relative flex-auto min-w-0 break-words bg-white rounded mb-6 xl:mb-0 shadow-lg">
-                                    <div class="flex-auto p-4 qs-object-tab" id="Gjdma" style="height: 250px">
+                            <div class="w-full md:w-6/12 lg:w-4/12 xl:w-3/12 p-4">
+                                <div class="relative flex-auto min-w-0 break-words bg-white rounded mb-6 xl:mb-0 shadow-lg">
+                                    <div class="flex-auto p-4 qs-object-tab h-250-px" id="Gjdma">
                                     </div>
                                 </div>
                             </div>
-                            <div class="w-full md:w-6/12 lg:w-4/12 xl:w-3/12 2xl:w-2/12 p-4">
-                                <div
-                                    class="relative flex-auto min-w-0 break-words bg-white rounded mb-6 xl:mb-0 shadow-lg">
-                                    <div class="flex-auto p-4 qs-object-tab" id="HfNtee"
-                                        style="height: 250px">
+                            <div class="w-full md:w-6/12 lg:w-4/12 xl:w-3/12  p-4">
+                                <div class="relative flex-auto min-w-0 break-words bg-white rounded mb-6 xl:mb-0 shadow-lg">
+                                    <div class="flex-auto p-4 qs-object-tab h-250-px" id="HfNtee">
                                     </div>
                                 </div>
                             </div>
-                            <div class="w-full md:w-6/12 lg:w-4/12 xl:w-3/12 2xl:w-2/12 p-4">
-                                <div
-                                    class="relative flex-auto min-w-0 break-words bg-white rounded mb-6 xl:mb-0 shadow-lg">
-                                    <div class="flex-auto p-4 qs-object-tab" id="mcfWxXd" style="height: 250px">
+                            <div class="w-full md:w-6/12 lg:w-4/12 xl:w-3/12 p-4">
+                                <div class="relative flex-auto min-w-0 break-words bg-white rounded mb-6 xl:mb-0 shadow-lg">
+                                    <div class="flex-auto p-4 qs-object-tab h-250-px" id="mcfWxXd">
                                     </div>
                                 </div>
                             </div>
-                            <div class="w-full md:w-6/12 lg:w-4/12 xl:w-3/12 2xl:w-2/12 p-4">
-                                <div
-                                    class="relative flex-auto min-w-0 break-words bg-white rounded mb-6 xl:mb-0 shadow-lg">
-                                    <div class="flex-auto p-4 qs-object-tab" id="CbtMBK" style="height: 250px">
+                            <div class="w-full md:w-6/12 lg:w-4/12 xl:w-3/12 p-4">
+                                <div class="relative flex-auto min-w-0 break-words bg-white rounded mb-6 xl:mb-0 shadow-lg">
+                                    <div class="flex-auto p-4 qs-object-tab h-250-px" id="CbtMBK">
                                     </div>
                                 </div>
                             </div>
-                            <div class="w-full md:w-6/12 lg:w-4/12 xl:w-3/12 2xl:w-2/12 p-4">
-                                <div
-                                    class="relative flex-auto min-w-0 break-words bg-white rounded mb-6 xl:mb-0 shadow-lg">
-                                    <div class="flex-auto p-4 qs-object-tab" id="CJCrPn"
-                                        style="height: 250px">
+                            <div class="w-full md:w-6/12 lg:w-4/12 xl:w-3/12 p-4">
+                                <div class="relative flex-auto min-w-0 break-words bg-white rounded mb-6 xl:mb-0 shadow-lg">
+                                    <div class="flex-auto p-4 qs-object-tab h-250-px" id="CJCrPn">
                                     </div>
                                 </div>
                             </div>
-                            <div class="w-full md:w-6/12 lg:w-4/12 xl:w-3/12 2xl:w-2/12 p-4">
+                            <div class="w-full md:w-6/12 lg:w-4/12 xl:w-3/12 p-4">
                                 <div
                                     class="relative flex flex-col min-w-0 break-words bg-white rounded mb-6 xl:mb-0 shadow-lg">
-                                    <div class="flex-auto p-4 qs-object-tab" id="kWrRQJ" style="height: 250px">
+                                    <div class="flex-auto p-4 qs-object-tab h-250-px" id="kWrRQJ">
                                     </div>
                                 </div>
                             </div>
-                            <div class="w-full md:w-6/12 lg:w-4/12 xl:w-3/12 2xl:w-2/12 p-4">
+                            <div class="w-full md:w-6/12 lg:w-4/12 xl:w-3/12  p-4">
                                 <div
                                     class="relative flex flex-col min-w-0 break-words bg-white rounded mb-6 xl:mb-0 shadow-lg">
-                                    <div class="flex-auto p-4 qs-object-tab" id="NMCEaaA" style="height: 250px">
+                                    <div class="flex-auto p-4 qs-object-tab h-250-px" id="NMCEaaA">
                                     </div>
                                 </div>
                             </div>
@@ -141,7 +134,7 @@
 
                     <div class="w-full  p-4 hidden md:block lg:block xl:block">
                         <div class="relative  break-words bg-white rounded mb-6 xl:mb-0 shadow-lg">
-                            <div class="w-full mb-12 p-4 qs-object-tab" id="GUZuvx" style="height: 600px">
+                            <div class="w-full mb-12 p-4 qs-object-tab h-600-px" id="GUZuvx">
                             </div>
                         </div>
                     </div>
@@ -150,28 +143,27 @@
                     <div class=" mx-auto w-full">
                         <div class="flex flex-wrap">
                             <div class="flex-auto w-full md:w-3/12 lg:w-3/12 xl:w-3/12 ">
-                                <div class="bg-white rounded shadow-lg  p-4 m-4 qs-object-tab"
-                                    id="3e99ced6-9b4a-4095-8bc5-ac5754109d92" style="height: 200px">
+                                <div class="bg-white rounded shadow-lg  p-4 m-4 qs-object-tab h-200-px"
+                                    id="3e99ced6-9b4a-4095-8bc5-ac5754109d92">
                                 </div>
 
-                                <div class="flex-auto bg-white rounded shadow-lg p-4 m-4 qs-object-tab"
-                                    id="e70518d7-3ce8-4e0a-a4fd-f5b810b2d6e1" style="height: 200px">
+                                <div class="flex-auto bg-white rounded shadow-lg p-4 m-4 qs-object-tab  h-200-px"
+                                    id="e70518d7-3ce8-4e0a-a4fd-f5b810b2d6e1">
                                 </div>
-                                <div class="flex-auto bg-white rounded shadow-lg p-4 m-4 qs-object-tab" id="UCtjkJE"
-                                    style="height: 200px">
+                                <div class="flex-auto bg-white rounded shadow-lg p-4 m-4 qs-object-tab  h-200-px"
+                                    id="UCtjkJE">
                                 </div>
                             </div>
                             <div class="w-full md:w-9/12 lg:w-9/12 xl:w-9/12">
-                                <div class="flex-auto  bg-white rounded shadow-lg qs-object-tab p-4 m-4" id="dCPFM"
-                                    style="height: 630px">
+                                <div class="flex-auto  bg-white rounded shadow-lg qs-object-tab p-4 m-4  h-630-px"
+                                    id="dCPFM">
                                 </div>
                             </div>
                         </div>
 
                         <div class="w-full  p-4 hidden md:block lg:block xl:block">
-                            <div class="relative  break-words bg-white rounded mb-6 xl:mb-0 shadow-lg">
-                                <div class="w-full mb-12 p-4 qs-object-tab" id="fff18ef3-28ba-4e38-9bb0-b843db2e4706"
-                                    style="height: 600px">
+                            <div class="relative  break-words bg-white rounded mb-6 xl:mb-0 shadow-lg  h-600-px">
+                                <div class="w-full mb-12 p-4 qs-object-tab" id="fff18ef3-28ba-4e38-9bb0-b843db2e4706">
                                 </div>
                             </div>
                         </div>
@@ -181,27 +173,27 @@
                     <div class=" mx-auto w-full">
                         <div class="flex flex-wrap">
                             <div class="w-full md:w-3/12 lg:w-3/12 xl:w-3/12 ">
-                                <div class="flex-auto bg-white rounded shadow-lg  p-4 m-4 qs-object-tab" id="3cd698d7-3625-479b-80f3-39b8fc8141a5"
-                                    style="height: 200px">
+                                <div class="flex-auto bg-white rounded shadow-lg  p-4 m-4 qs-object-tab h-200-px"
+                                    id="3cd698d7-3625-479b-80f3-39b8fc8141a5">
                                 </div>
 
-                                <div class="flex-auto bg-white rounded shadow-lg p-4 m-4 qs-object-tab" id="72ec3a80-e627-4cd8-89d4-5ce3a5c146e0"
-                                    style="height: 200px">
+                                <div class="flex-auto bg-white rounded shadow-lg p-4 m-4 qs-object-tab  h-200-px"
+                                    id="72ec3a80-e627-4cd8-89d4-5ce3a5c146e0">
                                 </div>
-                                <div class="flex-auto bg-white rounded shadow-lg p-4 m-4 qs-object-tab" id="fejkNAu"
-                                    style="height: 200px">
+                                <div class="flex-auto bg-white rounded shadow-lg p-4 m-4 qs-object-tab  h-200-px"
+                                    id="fejkNAu">
                                 </div>
                             </div>
                             <div class="w-full md:w-9/12 lg:w-9/12 xl:w-9/12 hidden md:block lg:block xl:block">
-                                <div class=" flex-auto bg-white rounded shadow-lg qs-object-tab p-4 m-4" id="DJwXqQ"
-                                    style="height: 630px">
+                                <div class=" flex-auto bg-white rounded shadow-lg qs-object-tab p-4 m-4  h-630-px"
+                                    id="DJwXqQ">
                                 </div>
                             </div>
                         </div>
 
                         <div class="w-full  p-4 hidden md:block lg:block xl:block">
-                            <div class="relative  break-words bg-white rounded mb-6 xl:mb-0 shadow-lg">
-                                <div class="w-full mb-12 p-4 qs-object-tab" id="1ec8de9b-6d64-478e-8f41-230759ef3a4f" style="height: 600px">
+                            <div class="relative  break-words bg-white rounded mb-6 xl:mb-0 shadow-lg  h-600-px">
+                                <div class="w-full mb-12 p-4 qs-object-tab" id="1ec8de9b-6d64-478e-8f41-230759ef3a4f">
                                 </div>
                             </div>
                         </div>
@@ -210,28 +202,28 @@
                 <div class="hidden" data-tab-content="true" id="tab3">
                     <div class=" mx-auto w-full">
                         <div class="flex flex-wrap">
-                            <div class="w-full md:w-3/12 lg:w-3/12 xl:w-3/12 ">
-                                <div class="flex-auto bg-white rounded shadow-lg  p-4 m-4 qs-object-tab" id="AXdUkP"
-                                    style="height: 200px">
+                            <div class="w-full md:w-3/12 lg:w-3/12 xl:w-3/12 self-center">
+                                <div class="flex-auto bg-white rounded shadow-lg  p-4 m-4 qs-object-tab h-200-px"
+                                    id="AXdUkP">
                                 </div>
 
-                                <div class="flex-auto bg-white rounded shadow-lg p-4 m-4 qs-object-tab" id="GDNCJN"
-                                    style="height: 200px">
+                                <div class="flex-auto bg-white rounded shadow-lg p-4 m-4 qs-object-tab h-200-px"
+                                    id="GDNCJN">
                                 </div>
-                                <div class="flex-auto bg-white rounded shadow-lg p-4 m-4 qs-object-tab" id="aaTPFSv"
-                                    style="height: 200px">
+                                <div class="flex-auto bg-white rounded shadow-lg p-4 m-4 qs-object-tab h-200-px"
+                                    id="aaTPFSv">
                                 </div>
                             </div>
                             <div class="w-full md:w-9/12 lg:w-9/12 xl:w-9/12">
-                                <div class=" flex-auto bg-white rounded shadow-lg qs-object-tab p-4 m-4" id="Lpxxjcv"
-                                    style="height: 630px">
+                                <div class=" flex-auto bg-white rounded shadow-lg qs-object-tab p-4 m-4 h-630-px"
+                                    id="Lpxxjcv">
                                 </div>
                             </div>
                         </div>
 
-                        <div class="w-full  p-4 hidden md:block lg:block xl:block">
+                        <div class="w-full  p-4 hidden md:block lg:block xl:block  self-center">
                             <div class="relative  break-words bg-white rounded mb-6 xl:mb-0 shadow-lg">
-                                <div class="w-full mb-12 p-4 qs-object-tab" id="yGfDjLq" style="height: 600px">
+                                <div class="w-full mb-12 p-4 qs-object-tab  h-600-px" id="yGfDjLq">
                                 </div>
                             </div>
                         </div>
@@ -241,27 +233,28 @@
                     <div class=" mx-auto w-full">
                         <div class="flex flex-wrap">
                             <div class="w-full md:w-3/12 lg:w-3/12 xl:w-3/12 ">
-                                <div class="flex-auto bg-white rounded shadow-lg  p-4 m-4 qs-object-tab" id="5a264498-1ca1-42dd-8518-873b1fd612fe"
-                                    style="height: 200px">
+                                <div class="flex-auto bg-white rounded shadow-lg  p-4 m-4 qs-object-tab h-200-px"
+                                    id="5a264498-1ca1-42dd-8518-873b1fd612fe">
                                 </div>
 
-                                <div class="flex-auto bg-white rounded shadow-lg p-4 m-4 qs-object-tab" id="fc8158f5-8627-4bbf-a0d5-d6d680938630"
-                                    style="height: 200px">
+                                <div class="flex-auto bg-white rounded shadow-lg p-4 m-4 qs-object-tab h-200-px"
+                                    id="fc8158f5-8627-4bbf-a0d5-d6d680938630">
                                 </div>
-                                <div class="flex-auto bg-white rounded shadow-lg p-4 m-4 qs-object-tab" id="e2571092-9118-439a-b782-1c23556843db"
-                                    style="height: 200px">
+                                <div class="flex-auto bg-white rounded shadow-lg p-4 m-4 qs-object-tab  h-200-px"
+                                    id="e2571092-9118-439a-b782-1c23556843db">
                                 </div>
                             </div>
                             <div class="w-full md:w-9/12 lg:w-9/12 xl:w-9/12">
-                                <div class=" flex-auto bg-white rounded shadow-lg qs-object-tab p-4 m-4" id="msSmwW"
-                                    style="height: 630px">
+                                <div class=" flex-auto bg-white rounded shadow-lg qs-object-tab p-4 m-4  h-630-px"
+                                    id="msSmwW">
                                 </div>
                             </div>
                         </div>
 
                         <div class="w-full  p-4 hidden md:block lg:block xl:block">
                             <div class="relative  break-words bg-white rounded mb-6 xl:mb-0 shadow-lg">
-                                <div class="w-full mb-12 p-4 qs-object-tab" id="b6127377-6722-49f9-93e9-9c7f94f65ef9" style="height: 600px">
+                                <div class="w-full mb-12 p-4 qs-object-tab  h-600-px"
+                                    id="b6127377-6722-49f9-93e9-9c7f94f65ef9">
                                 </div>
                             </div>
                         </div>
@@ -270,21 +263,21 @@
                 <div class="hidden" data-tab-content="true" id="tab5">
                     <div class=" mx-auto w-full">
                         <div class="flex flex-wrap">
-                            <div class="flex-auto w-full md:w-3/12 lg:w-3/12 xl:w-3/12 bg-white rounded shadow-lg  p-4 m-4 qs-object-tab" id="scawKG"
-                                style="height: 200px">
+                            <div class="flex-auto w-full md:w-3/12 lg:w-3/12 xl:w-3/12 bg-white rounded shadow-lg  p-4 m-4 qs-object-tab h-200-px"
+                                id="scawKG">
                             </div>
 
-                            <div class="flex-auto w-full md:w-3/12 lg:w-3/12 xl:w-3/12 bg-white rounded shadow-lg p-4 m-4 qs-object-tab" id="mcjaU"
-                                style="height: 200px">
+                            <div class="flex-auto w-full md:w-3/12 lg:w-3/12 xl:w-3/12 bg-white rounded shadow-lg p-4 m-4 qs-object-tab h-200-px"
+                                id="mcjaU">
                             </div>
-                            <div class=" flex-auto w-full md:w-3/12 lg:w-3/12 xl:w-3/12 bg-white rounded shadow-lg p-4 m-4 qs-object-tab" id="VTyWF"
-                                style="height: 200px">
+                            <div class=" flex-auto w-full md:w-3/12 lg:w-3/12 xl:w-3/12 bg-white rounded shadow-lg p-4 m-4 qs-object-tab h-200-px"
+                                id="VTyWF">
                             </div>
                         </div>
 
                         <div class="w-full  p-4 hidden md:block lg:block xl:block">
                             <div class="relative  break-words bg-white rounded mb-6 xl:mb-0 shadow-lg">
-                                <div class="w-full mb-12 p-4 qs-object-tab" id="hFxZ" style="height: 600px">
+                                <div class="w-full mb-12 p-4 qs-object-tab  h-600-px" id="hFxZ">
                                 </div>
                             </div>
                         </div>
@@ -293,28 +286,28 @@
                 <div class="hidden" data-tab-content="true" id="tab6">
                     <div class=" mx-auto w-full">
                         <div class="flex flex-wrap">
-                            <div class="w-full md:w-3/12 lg:w-3/12 xl:w-3/12 ">
-                                <div class="flex-auto bg-white rounded shadow-lg  p-4 m-4 qs-object-tab" id="KNpSp"
-                                    style="height: 200px">
+                            <div class="w-full md:w-3/12 lg:w-3/12 xl:w-3/12 self-center">
+                                <div class="flex-auto bg-white rounded shadow-lg  p-4 m-4 qs-object-tab  h-200-px"
+                                    id="KNpSp">
                                 </div>
 
-                                <div class="flex-auto bg-white rounded shadow-lg p-4 m-4 qs-object-tab" id="WXqeCMC"
-                                    style="height: 200px">
+                                <div class="flex-auto bg-white rounded shadow-lg p-4 m-4 qs-object-tab  h-200-px"
+                                    id="WXqeCMC">
                                 </div>
-                                <div class="flex-auto bg-white rounded shadow-lg p-4 m-4 qs-object-tab" id="AxAsMB"
-                                    style="height: 200px">
+                                <div class="flex-auto bg-white rounded shadow-lg p-4 m-4 qs-object-tab  h-200-px"
+                                    id="AxAsMB">
                                 </div>
                             </div>
-                            <div class="w-full md:w-9/12 lg:w-9/12 xl:w-9/12">
-                                <div class=" flex-auto bg-white rounded shadow-lg qs-object-tab p-4 m-4" id="PRDufSE"
-                                    style="height: 630px">
+                            <div class="w-full md:w-9/12 lg:w-9/12 xl:w-9/12 self-center">
+                                <div class=" flex-auto bg-white rounded shadow-lg qs-object-tab p-4 m-4 h-630-px"
+                                    id="PRDufSE">
                                 </div>
                             </div>
                         </div>
 
                         <div class="w-full  p-4 hidden md:block lg:block xl:block">
                             <div class="relative  break-words bg-white rounded mb-6 xl:mb-0 shadow-lg">
-                                <div class="w-full mb-12 p-4 qs-object-tab" id="NJwjne" style="height: 600px">
+                                <div class="w-full mb-12 p-4 qs-object-tab h-600-px" id="NJwjne">
                                 </div>
                             </div>
                         </div>
@@ -323,21 +316,16 @@
                 <div class="hidden" data-tab-content="true" id="tab7">
                     <div class=" mx-auto w-full">
                         <div class="flex flex-wrap">
-                            <div class="flex-auto w-full md:w-3/12 lg:w-3/12 xl:w-3/12 bg-white rounded shadow-lg  p-4 m-4 qs-object-tab" id="fHHJLmx"
-                                style="height: 200px">
-                            </div>
-
-                            <div class="flex-auto w-full md:w-3/12 lg:w-3/12 xl:w-3/12 bg-white rounded shadow-lg p-4 m-4 qs-object-tab" id="tWyXzm"
-                                style="height: 200px">
-                            </div>
-                            <div class=" flex-auto w-full md:w-3/12 lg:w-3/12 xl:w-3/12 bg-white rounded shadow-lg p-4 m-4 qs-object-tab" id="mmASpG"
-                                style="height: 200px">
-                            </div>
+                            <div class="flex-auto w-full md:w-3/12 lg:w-3/12 xl:w-3/12 bg-white rounded shadow-lg  p-4 m-4 qs-object-tab h-200-px"
+                                id="fHHJLmx"></div>
+                            <div class="flex-auto w-full md:w-3/12 lg:w-3/12 xl:w-3/12 bg-white rounded shadow-lg p-4 m-4 qs-object-tab h-200-px"
+                                id="tWyXzm"></div>
+                            <div class=" flex-auto w-full md:w-3/12 lg:w-3/12 xl:w-3/12 bg-white rounded shadow-lg p-4 m-4 qs-object-tab h-200-px"
+                                id="mmASpG"></div>
                         </div>
-
                         <div class="w-full  p-4 hidden md:block lg:block xl:block">
                             <div class="relative  break-words bg-white rounded mb-6 xl:mb-0 shadow-lg">
-                                <div class="w-full mb-12 p-4 qs-object-tab" id="jVtWeM" style="height: 600px">
+                                <div class="w-full mb-12 p-4 qs-object-tab h-600-px" id="jVtWeM">
                                 </div>
                             </div>
                         </div>

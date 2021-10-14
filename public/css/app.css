@@ -3046,10 +3046,4 @@ select {
 		width: 75%;
 	}
 }
-@media (min-width: 1536px) {
-
-	.\32xl\:w-2\/12 {
-		width: 16.666667%;
-	}
-}
 
