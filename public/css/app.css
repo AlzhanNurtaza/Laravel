@@ -3006,6 +3006,14 @@ select {
 		width: 75%;
 	}
 
+	.lg\:w-1\/12 {
+		width: 8.333333%;
+	}
+
+	.lg\:w-2\/12 {
+		width: 16.666667%;
+	}
+
 	.lg\:px-8 {
 		padding-left: 2rem;
 		padding-right: 2rem;
@@ -3044,6 +3052,10 @@ select {
 
 	.xl\:w-9\/12 {
 		width: 75%;
+	}
+
+	.xl\:w-2\/12 {
+		width: 16.666667%;
 	}
 }
 

@@ -85,44 +85,44 @@
                     <div class=" mx-auto w-full">
                         <!-- Card stats -->
                         <div class="flex flex-wrap">
-                            <div class="w-full md:w-6/12 lg:w-4/12 xl:w-3/12 p-4">
+                            <div class="w-full md:w-6/12 lg:w-1/12 p-4 flex-auto">
                                 <div class="relative flex-auto min-w-0 break-words bg-white rounded mb-6 xl:mb-0 shadow-lg">
                                     <div class="flex-auto p-4 qs-object-tab h-250-px" id="Gjdma">
                                     </div>
                                 </div>
                             </div>
-                            <div class="w-full md:w-6/12 lg:w-4/12 xl:w-3/12  p-4">
+                            <div class="w-full md:w-6/12 lg:w-1/12  p-4 flex-auto">
                                 <div class="relative flex-auto min-w-0 break-words bg-white rounded mb-6 xl:mb-0 shadow-lg">
                                     <div class="flex-auto p-4 qs-object-tab h-250-px" id="HfNtee">
                                     </div>
                                 </div>
                             </div>
-                            <div class="w-full md:w-6/12 lg:w-4/12 xl:w-3/12 p-4">
+                            <div class="w-full md:w-6/12 lg:w-1/12 p-4 flex-auto">
                                 <div class="relative flex-auto min-w-0 break-words bg-white rounded mb-6 xl:mb-0 shadow-lg">
                                     <div class="flex-auto p-4 qs-object-tab h-250-px" id="mcfWxXd">
                                     </div>
                                 </div>
                             </div>
-                            <div class="w-full md:w-6/12 lg:w-4/12 xl:w-3/12 p-4">
+                            <div class="w-full md:w-6/12 lg:w-1/12 p-4 flex-auto ">
                                 <div class="relative flex-auto min-w-0 break-words bg-white rounded mb-6 xl:mb-0 shadow-lg">
                                     <div class="flex-auto p-4 qs-object-tab h-250-px" id="CbtMBK">
                                     </div>
                                 </div>
                             </div>
-                            <div class="w-full md:w-6/12 lg:w-4/12 xl:w-3/12 p-4">
+                            <div class="w-full md:w-6/12 lg:w-1/12 p-4 flex-auto">
                                 <div class="relative flex-auto min-w-0 break-words bg-white rounded mb-6 xl:mb-0 shadow-lg">
                                     <div class="flex-auto p-4 qs-object-tab h-250-px" id="CJCrPn">
                                     </div>
                                 </div>
                             </div>
-                            <div class="w-full md:w-6/12 lg:w-4/12 xl:w-3/12 p-4">
+                            <div class="w-full md:w-6/12 lg:w-1/12 p-4 flex-auto">
                                 <div
                                     class="relative flex flex-col min-w-0 break-words bg-white rounded mb-6 xl:mb-0 shadow-lg">
                                     <div class="flex-auto p-4 qs-object-tab h-250-px" id="kWrRQJ">
                                     </div>
                                 </div>
                             </div>
-                            <div class="w-full md:w-6/12 lg:w-4/12 xl:w-3/12  p-4">
+                            <div class="w-full md:w-6/12 lg:w-1/12 p-4 flex-auto">
                                 <div
                                     class="relative flex flex-col min-w-0 break-words bg-white rounded mb-6 xl:mb-0 shadow-lg">
                                     <div class="flex-auto p-4 qs-object-tab h-250-px" id="NMCEaaA">
