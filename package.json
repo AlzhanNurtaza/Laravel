@@ -19,12 +19,17 @@
         "cross-env": "^7.0.3",
         "dropzone": "^5.9.2",
         "flatpickr": "^4.6.9",
-        "jquery": "^3.2",
+        "jquery": "^3.6.0",
         "laravel-mix": "^6.0.18",
         "lodash": "^4.17.19",
         "postcss": "^8.3.8",
         "resolve-url-loader": "^3.1.2",
         "select2": "^4.0.13",
         "tailwindcss": "^2.2.16"
+    },
+    "dependencies": {
+        "@fortawesome/fontawesome-free": "^5.15.4",
+        "alpinejs": "^3.4.2",
+        "popper.js": "^1.16.1"
     }
 }
