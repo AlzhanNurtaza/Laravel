@@ -286,14 +286,14 @@
                 <div class="hidden" data-tab-content="true" id="tab6">
                     <div class=" mx-auto w-full">
                         <div class="flex flex-wrap">
-                                <div class="flex-auto bg-white rounded shadow-lg  p-4 m-4 qs-object-tab h-200-px"
+                                <div class="flex-auto bg-white rounded shadow-lg  p-4 m-4 qs-object-tab h-250-px"
                                     id="ghjNHSJ">
                                 </div>
 
-                                <div class="flex-auto bg-white rounded shadow-lg p-4 m-4 qs-object-tab h-200-px"
+                                <div class="flex-auto bg-white rounded shadow-lg p-4 m-4 qs-object-tab h-250-px"
                                     id="PebmhX">
                                 </div>
-                                <div class="flex-auto bg-white rounded shadow-lg p-4 m-4 qs-object-tab h-200-px"
+                                <div class="flex-auto bg-white rounded shadow-lg p-4 m-4 qs-object-tab h-250-px"
                                     id="TbHfydj">
                                 </div>
                         </div>
