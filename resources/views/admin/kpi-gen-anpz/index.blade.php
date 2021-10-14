@@ -144,7 +144,7 @@
                         </div>
                     </div>
 
-                    <div class="w-full  p-4 hidden md:block lg:block xl:block">
+                    <div class="w-full  p-4">
                         <div class="relative  break-words bg-white rounded mb-6 xl:mb-0 shadow-lg">
                             <div class="w-full mb-12 p-4 qs-object-tab h-600-px" id="GUZuvx" >
                             </div>
