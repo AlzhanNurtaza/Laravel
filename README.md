@@ -16,5 +16,5 @@ Default
 Username: admin@admin.com
 Password: password
 
-(All labels deleted)
-![] (screenshot.png)
+
+![](screenshot.png)
