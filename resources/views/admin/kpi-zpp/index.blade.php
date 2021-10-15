@@ -198,18 +198,28 @@
                 <div class="hidden" data-tab-content="true" id="tab3">
                     <div class=" mx-auto w-full">
                         <div class="flex flex-wrap">
-                            <div class="flex-auto bg-white rounded shadow-lg  p-4 m-4 qs-object-tab h-250-px" id="VLQaPMY">
-                            </div>
+                            <div class="w-full md:w-3/12 lg:w-3/12 xl:w-3/12 self-center">
+                                <div class="flex-auto bg-white rounded shadow-lg  p-4 m-4 qs-object-tab h-200-px"
+                                    id="VLQaPMY">
+                                </div>
 
-                            <div class="flex-auto bg-white rounded shadow-lg p-4 m-4 qs-object-tab h-250-px" id="xmTMjh">
+                                <div class="flex-auto bg-white rounded shadow-lg p-4 m-4 qs-object-tab h-200-px"
+                                    id="xmTMjh">
+                                </div>
+                                <div class="flex-auto bg-white rounded shadow-lg p-4 m-4 qs-object-tab h-200-px"
+                                    id="YZAJJ">
+                                </div>
                             </div>
-                            <div class="flex-auto bg-white rounded shadow-lg p-4 m-4 qs-object-tab h-250-px" id="DHGLTbW">
+                            <div class="w-full md:w-9/12 lg:w-9/12 xl:w-9/12 hidden md:block lg:block xl:block self-center">
+                                <div class=" flex-auto bg-white rounded shadow-lg qs-object-tab p-4 m-4 h-630-px"
+                                    id="ccf4063e-f79c-43bf-ace0-fff195f9f73b">
+                                </div>
                             </div>
                         </div>
 
-                        <div class="w-full  p-4 hidden md:block lg:block xl:block">
+                        <div class="w-full  p-4 hidden md:block lg:block xl:block ">
                             <div class="relative  break-words bg-white rounded mb-6 xl:mb-0 shadow-lg">
-                                <div class="w-full mb-12 p-4 qs-object-tab h-600-px"
+                                <div class="w-full mb-12 p-4 qs-object-tab  h-600-px"
                                     id="DYPM">
                                 </div>
                             </div>
