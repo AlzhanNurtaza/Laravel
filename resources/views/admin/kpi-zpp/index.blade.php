@@ -167,7 +167,7 @@
                 <div class="hidden" data-tab-content="true" id="tab2">
                     <div class=" mx-auto w-full">
                         <div class="flex flex-wrap">
-                            <div class="w-full md:w-3/12 lg:w-3/12 xl:w-3/12 self-center">
+                            <div class="w-full lg:w-3/12 xl:w-3/12 self-center">
                                 <div class="flex-auto bg-white rounded shadow-lg  p-4 m-4 qs-object-tab h-200-px"
                                     id="3a3c5892-180d-4fa9-a656-896585af0c06">
                                 </div>
@@ -179,8 +179,8 @@
                                     id="exGMNp">
                                 </div>
                             </div>
-                            <div class="w-full md:w-9/12 lg:w-9/12 xl:w-9/12 hidden md:block lg:block xl:block self-center">
-                                <div class=" flex-auto bg-white rounded shadow-lg qs-object-tab p-4 m-4 h-630-px"
+                            <div class="w-full lg:w-9/12 xl:w-9/12 self-center">
+                                <div class=" flex-auto bg-white rounded shadow-lg qs-object-tab p-4 m-4 h-350-px lg:h-630-px"
                                     id="e46e4509-af77-4efb-98ed-e0fa6d3cc6e8">
                                 </div>
                             </div>
@@ -198,7 +198,7 @@
                 <div class="hidden" data-tab-content="true" id="tab3">
                     <div class=" mx-auto w-full">
                         <div class="flex flex-wrap">
-                            <div class="w-full md:w-3/12 lg:w-3/12 xl:w-3/12 self-center">
+                            <div class="w-full lg:w-3/12 xl:w-3/12 self-center">
                                 <div class="flex-auto bg-white rounded shadow-lg  p-4 m-4 qs-object-tab h-200-px"
                                     id="VLQaPMY">
                                 </div>
@@ -209,14 +209,14 @@
                                 <div class="flex-auto bg-white rounded shadow-lg p-4 m-4 qs-object-tab h-200-px" id="YZAJJ">
                                 </div>
                             </div>
-                            <div class="w-full md:w-9/12 lg:w-9/12 xl:w-9/12 hidden md:block lg:block xl:block self-center">
-                                <div class=" flex-auto bg-white rounded shadow-lg qs-object-tab p-4 m-4 h-630-px"
+                            <div class="w-full lg:w-9/12 xl:w-9/12 self-center">
+                                <div class=" flex-auto bg-white rounded shadow-lg qs-object-tab p-4 m-4 h-350-px lg:h-630-px"
                                     id="ccf4063e-f79c-43bf-ace0-fff195f9f73b">
                                 </div>
                             </div>
                         </div>
 
-                        <div class="w-full  p-4 hidden md:block lg:block xl:block ">
+                        <div class="w-full  p-4 hidden lg:block xl:block ">
                             <div class="relative  break-words bg-white rounded mb-6 xl:mb-0 shadow-lg">
                                 <div class="w-full mb-12 p-4 qs-object-tab  h-600-px" id="DYPM">
                                 </div>
@@ -227,7 +227,7 @@
                 <div class="hidden" data-tab-content="true" id="tab4">
                     <div class=" mx-auto w-full">
                         <div class="flex flex-wrap">
-                            <div class="w-full md:w-3/12 lg:w-3/12 xl:w-3/12 self-center">
+                            <div class="w-full lg:w-3/12 xl:w-3/12 self-center">
                                 <div class="flex-auto bg-white rounded shadow-lg  p-4 m-4 qs-object-tab h-250-px"
                                     id="48eaeee1-38f6-4396-be74-0521b8b562e9">
                                 </div>
@@ -238,14 +238,14 @@
                                 <div class="flex-auto bg-white rounded shadow-lg p-4 m-4 qs-object-tab h-200-px" id="RmSPC">
                                 </div>
                             </div>
-                            <div class="w-full md:w-9/12 lg:w-9/12 xl:w-9/12 self-center">
-                                <div class=" flex-auto bg-white rounded shadow-lg qs-object-tab p-4 m-4 h-600-px md:h-730-px"
+                            <div class="w-full lg:w-9/12 xl:w-9/12 self-center">
+                                <div class=" flex-auto bg-white rounded shadow-lg qs-object-tab p-4 m-4 h-350-px lg:h-730-px"
                                     id="eenWQq">
                                 </div>
                             </div>
                         </div>
 
-                        <div class="w-full  p-4 hidden md:block lg:block xl:block">
+                        <div class="w-full  p-4 hidden lg:block xl:block">
                             <div class="relative  break-words bg-white rounded mb-6 xl:mb-0 shadow-lg">
                                 <div class="w-full mb-12 p-4 qs-object-tab h-600-px"
                                     id="2f16a3cb-5d6f-464b-a1b5-00b4b50bfd5a">
@@ -257,7 +257,7 @@
                 <div class="hidden" data-tab-content="true" id="tab5">
                     <div class=" mx-auto w-full">
                         <div class="flex flex-wrap">
-                            <div class="w-full md:w-3/12 lg:w-3/12 xl:w-3/12 self-center">
+                            <div class="w-full lg:w-3/12 xl:w-3/12 self-center">
                                 <div class="flex-auto bg-white rounded shadow-lg  p-4 m-4 qs-object-tab h-200-px"
                                     id="3e99ced6-9b4a-4095-8bc5-ac5754109d92">
                                 </div>
@@ -269,14 +269,14 @@
                                     id="UCtjkJE">
                                 </div>
                             </div>
-                            <div class="w-full md:w-9/12 lg:w-9/12 xl:w-9/12 self-center">
-                                <div class=" flex-auto bg-white rounded shadow-lg qs-object-tab p-4 m-4 h-630-px"
+                            <div class="w-full lg:w-9/12 xl:w-9/12 self-center">
+                                <div class=" flex-auto bg-white rounded shadow-lg qs-object-tab p-4 m-4 h-350-px lg:h-630-px"
                                     id="dCPFM">
                                 </div>
                             </div>
                         </div>
 
-                        <div class="w-full  p-4 hidden md:block lg:block xl:block">
+                        <div class="w-full  p-4 hidden lg:block xl:block">
                             <div class="relative  break-words bg-white rounded mb-6 xl:mb-0 shadow-lg">
                                 <div class="w-full mb-12 p-4 qs-object-tab h-600-px"
                                     id="fff18ef3-28ba-4e38-9bb0-b843db2e4706">
@@ -298,7 +298,7 @@
                             </div>
                         </div>
 
-                        <div class="w-full  p-4 hidden md:block lg:block xl:block">
+                        <div class="w-full  p-4 hidden lg:block xl:block">
                             <div class="relative  break-words bg-white rounded mb-6 xl:mb-0 shadow-lg">
                                 <div class="w-full mb-12 p-4 qs-object-tab h-600-px"
                                     id="ed45ce7c-4109-4f53-b49c-3c27fc5d3d55">
