@@ -227,7 +227,7 @@
                 <div class="hidden" data-tab-content="true" id="tab4">
                     <div class=" mx-auto w-full">
                         <div class="flex flex-wrap">
-                            <div class="w-full lg:w-3/12 xl:w-3/12 self-center">
+                            <div class="w-full lg:w-4/12 xl:w-3/12 self-center">
                                 <div class="flex-auto bg-white rounded shadow-lg  p-4 m-4 qs-object-tab h-250-px"
                                     id="48eaeee1-38f6-4396-be74-0521b8b562e9">
                                 </div>
@@ -238,7 +238,7 @@
                                 <div class="flex-auto bg-white rounded shadow-lg p-4 m-4 qs-object-tab h-200-px" id="RmSPC">
                                 </div>
                             </div>
-                            <div class="w-full lg:w-9/12 xl:w-9/12 self-center">
+                            <div class="w-full lg:w-8/12 xl:w-9/12 self-center">
                                 <div class=" flex-auto bg-white rounded shadow-lg qs-object-tab p-4 m-4 h-350-px lg:h-730-px"
                                     id="eenWQq">
                                 </div>
