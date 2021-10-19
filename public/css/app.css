@@ -2107,6 +2107,9 @@ select {
 .h-500-px {
 	height: 500px;
 }
+.h-350-px {
+	height: 350px;
+}
 .min-h-screen {
 	min-height: 100vh;
 }
