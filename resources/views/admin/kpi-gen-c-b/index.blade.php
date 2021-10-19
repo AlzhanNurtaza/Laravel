@@ -388,7 +388,6 @@
         </div>
     </div>
 
-
 @section('QlikScripts')
     qlikConnection('c891b18c-641b-42ea-9655-f42fddc73d2c','breeze','2d88e1be-a167-40c0-83e6-70f776b48a3c');
 @endsection
