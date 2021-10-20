@@ -17,8 +17,8 @@ mix
         require("tailwindcss")
     ])
     .js('node_modules/jquery/dist/jquery.min.js', 'public/js')
-    .js('node_modules/popper.js/dist/popper.min.js', 'public/js')
     .sourceMaps()
     .js('node_modules/alpinejs/dist/cdn.min.js', 'public/js')
     .css('node_modules/@fortawesome/fontawesome-free/css/all.min.css/', 'public/css');
-    ;
+
+    mix.copy(['node_modules/@popperjs/core/dist/umd/popper.js','node_modules/@popperjs/core/dist/umd/popper.js.map'], 'public/js');

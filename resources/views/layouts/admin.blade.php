@@ -45,8 +45,8 @@
     <form id="logoutform" action="{{ route('logout') }}" method="POST" style="display: none;">
         {{ csrf_field() }}
     </form>
-    <script type="text/javascript" src="{{ asset('js/app.js') }}"></script>
-    <script type="text/javascript" src="{{ asset('js/popper.min.js') }}"></script>
+    <script type="text/javascript" src="{{ asset('js/app.js') }}" ></script>
+    <script type="text/javascript" src="{{ asset('js/popper.js') }}" ></script>
     @livewireScripts
     @yield('scripts')
     @stack('scripts')

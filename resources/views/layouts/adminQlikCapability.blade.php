@@ -46,9 +46,6 @@
 
     </div>
 
-    <script type="text/javascript" src="{{ asset('js/jquery.min.js') }}">
-    </script>
-
     <form id="logoutform" action="{{ route('logout') }}" method="POST" style="display: none;">
         {{ csrf_field() }}
     </form>

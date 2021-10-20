@@ -1,8 +1,9 @@
 {
     "/js/app.js": "/js/app.js",
     "/js/jquery.min.js": "/js/jquery.min.js",
-    "/js/popper.min.js": "/js/popper.min.js",
     "/js/cdn.min.js": "/js/cdn.min.js",
     "/css/app.css": "/css/app.css",
-    "/css/all.min.css": "/css/all.min.css"
+    "/css/all.min.css": "/css/all.min.css",
+    "/js/popper.js": "/js/popper.js",
+    "/js/popper.js.map": "/js/popper.js.map"
 }
