@@ -231,3 +231,9 @@ textarea.form-control {
 {
     min-width: 1.25rem;
 }
+
+
+div[tid=toggleGlobalSearchButton], button[data-tid=current-selections-forward], button[data-tid=current-selections-clear], div[tid*=currentSelections]  {
+    @apply !hidden;
+}
+

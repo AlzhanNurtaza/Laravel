@@ -105,14 +105,12 @@
                                                                     childLayout
                                                                     .visualization
                                                                 )) {
-                                                                childLayout.showTitles =false;
                                                                 childLayout.measureAxis.show = 'none';
                                                                 childLayout.legend.show = false;
                                                                 child
                                                                     .Validated
                                                                     .bind(
                                                                         function() {
-                                                                            childLayout.showTitles = false;
                                                                             childLayout.measureAxis.show = 'none';
                                                                             childLayout.legend.show = false;
                                                                         }
@@ -128,11 +126,10 @@
                                     model.getLayout().then(function(childLayout) {
                                         if (objectAxisHide.includes(childLayout
                                                 .visualization)) {
-                                            childLayout.showTitles = false;
                                             childLayout.measureAxis.show = 'none';
                                             childLayout.legend.show = false;
-                                            child.Validated.bind(function() {
-                                                childLayout.showTitles = false;
+                                            model.Validated.bind(function() 
+                                            {
                                                 childLayout.measureAxis.show ='none';
                                                 childLayout.legend.show = false;
                                             });
