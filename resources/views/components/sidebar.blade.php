@@ -153,24 +153,6 @@
                         </a>
                     </li>
                 @endcan
-
-                @if(file_exists(app_path('Http/Controllers/Auth/UserProfileController.php')))
-                    @can('auth_profile_edit')
-                        <li class="items-center">
-                            <a href="{{ route("profile.show") }}" class="{{ request()->is("profile") ? "sidebar-nav-active" : "sidebar-nav" }}">
-                                <i class="fa-fw c-sidebar-nav-icon fas fa-user-circle"></i>
-                                {{ trans('global.my_profile') }}
-                            </a>
-                        </li>
-                    @endcan
-                @endif
-
-                <li class="items-center">
-                    <a href="#" onclick="event.preventDefault(); document.getElementById('logoutform').submit();" class="sidebar-nav">
-                        <i class="fa-fw fas fa-sign-out-alt"></i>
-                        {{ trans('global.logout') }}
-                    </a>
-                </li>
             </ul>
         </div>
     </div>
