@@ -105,24 +105,16 @@
                                                                     childLayout
                                                                     .visualization
                                                                 )) {
-                                                                childLayout
-                                                                    .showTitles =
-                                                                    false;
-                                                                childLayout
-                                                                    .measureAxis
-                                                                    .show =
-                                                                    'none';
+                                                                childLayout.showTitles =false;
+                                                                childLayout.measureAxis.show = 'none';
+                                                                childLayout.legend.show = false;
                                                                 child
                                                                     .Validated
                                                                     .bind(
                                                                         function() {
-                                                                            childLayout
-                                                                                .showTitles =
-                                                                                false;
-                                                                            childLayout
-                                                                                .measureAxis
-                                                                                .show =
-                                                                                'none';
+                                                                            childLayout.showTitles = false;
+                                                                            childLayout.measureAxis.show = 'none';
+                                                                            childLayout.legend.show = false;
                                                                         }
                                                                     );
                                                             }
@@ -138,10 +130,11 @@
                                                 .visualization)) {
                                             childLayout.showTitles = false;
                                             childLayout.measureAxis.show = 'none';
+                                            childLayout.legend.show = false;
                                             child.Validated.bind(function() {
                                                 childLayout.showTitles = false;
-                                                childLayout.measureAxis.show =
-                                                    'none';
+                                                childLayout.measureAxis.show ='none';
+                                                childLayout.legend.show = false;
                                             });
                                         }
                                     });

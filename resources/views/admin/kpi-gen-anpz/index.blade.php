@@ -289,7 +289,7 @@
                             </div>
                             <div class="w-full lg:w-9/12 xl:w-9/12">
                                 <div class=" flex-auto bg-white rounded shadow-lg qs-object-tab p-4 m-4 h-350-px lg:h-630-px"
-                                    id="PRDufSE">
+                                    id="HjJhp">
                                 </div>
                             </div>
                         </div>
