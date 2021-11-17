@@ -12,6 +12,8 @@ use App\Http\Controllers\Admin\UserController;
 use App\Http\Controllers\Admin\KpiKlpeController;
 use App\Http\Controllers\Admin\KpiKpiController;
 use App\Http\Controllers\Auth\UserProfileController;
+use App\Http\Controllers\Admin\OPiUController;
+use App\Http\Controllers\Admin\ProductionVolumeController;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Route;
 
@@ -55,6 +57,12 @@ Route::group(['prefix' => 'admin', 'as' => 'admin.', 'middleware' => ['auth']], 
 
     // Kpi Kpi
     Route::resource('kpi-kpis', KpiKpiController::class, ['except' => ['store', 'update', 'destroy']]);
+
+    // O Pi U
+    Route::resource('o-pi-us', OPiUController::class, ['except' => ['store', 'update', 'destroy']]);
+
+    // Production Volume
+    Route::resource('production-volumes', ProductionVolumeController::class, ['except' => ['store', 'update', 'destroy']]);
 });
 
 Route::group(['prefix' => 'profile', 'as' => 'profile.', 'middleware' => ['auth']], function () {

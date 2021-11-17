@@ -97,4 +97,12 @@ return [
         'title'          => 'KPI',
         'title_singular' => 'KPI',
     ],
+    'oPiU' => [
+        'title'          => 'ОПиУ',
+        'title_singular' => 'ОПиУ',
+    ],
+    'productionVolume' => [
+        'title'          => 'Производственные показатели',
+        'title_singular' => 'Производственные показатели',
+    ],
 ];

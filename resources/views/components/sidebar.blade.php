@@ -153,6 +153,25 @@
                         </a>
                     </li>
                 @endcan
+                @can('o_pi_u_access')
+                    <li class="items-center">
+                        <a class="{{ request()->is("admin/o-pi-us*") ? "sidebar-nav-active" : "sidebar-nav" }}" href="{{ route("admin.o-pi-us.index") }}">
+                            <i class="fa-fw c-sidebar-nav-icon far fa-chart-bar">
+                            </i>
+                            {{ trans('cruds.oPiU.title') }}
+                        </a>
+                    </li>
+                @endcan
+                @can('production_volume_access')
+                    <li class="items-center">
+                        <a class="{{ request()->is("admin/production-volumes*") ? "sidebar-nav-active" : "sidebar-nav" }}" href="{{ route("admin.production-volumes.index") }}">
+                            <i class="fa-fw c-sidebar-nav-icon far fa-chart-bar">
+                            </i>
+                            {{ trans('cruds.productionVolume.title') }}
+                        </a>
+                    </li>
+                @endcan
+                
             </ul>
         </div>
     </div>
