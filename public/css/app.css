@@ -3035,6 +3035,10 @@ select {
 		width: 66.666667%;
 	}
 
+	.lg\:max-w-200-px {
+		max-width: 200px;
+	}
+
 	.lg\:px-8 {
 		padding-left: 2rem;
 		padding-right: 2rem;
