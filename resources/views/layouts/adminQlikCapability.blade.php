@@ -69,7 +69,7 @@
       let i = 0;
         var qlikApp = null;
         var appObjects = [];
-        var objectAxisHide = ['qlik-variance-waterfall', 'linechart'];
+        var objectAxisHide = ['qlik-variance-waterfall', 'linechart','barchart'];
 
 
         const mobileCheck = function() {
@@ -106,13 +106,13 @@
                                                                     .visualization
                                                                 )) {
                                                                 childLayout.measureAxis.show = 'none';
-                                                                childLayout.legend.show = false;
+                                                                //childLayout.legend.show = false;
                                                                 child
                                                                     .Validated
                                                                     .bind(
                                                                         function() {
                                                                             childLayout.measureAxis.show = 'none';
-                                                                            childLayout.legend.show = false;
+                                                                            //childLayout.legend.show = false;
                                                                         }
                                                                     );
                                                             }
@@ -127,11 +127,11 @@
                                         if (objectAxisHide.includes(childLayout
                                                 .visualization)) {
                                             childLayout.measureAxis.show = 'none';
-                                            childLayout.legend.show = false;
+                                            //childLayout.legend.show = false;
                                             model.Validated.bind(function() 
                                             {
                                                 childLayout.measureAxis.show ='none';
-                                                childLayout.legend.show = false;
+                                                //childLayout.legend.show = false;
                                             });
                                         }
                                     });

@@ -1926,9 +1926,6 @@ select {
 .relative {
 	position: relative;
 }
-.sticky {
-	position: sticky;
-}
 .inset-y-0 {
 	top: 0px;
 	bottom: 0px;
@@ -2111,6 +2108,18 @@ select {
 }
 .h-350-px {
 	height: 350px;
+}
+.h-50-px {
+	height: 50px;
+}
+.h-100-px {
+	height: 100px;
+}
+.h-400-px {
+	height: 400px;
+}
+.h-150-px {
+	height: 150px;
 }
 .min-h-screen {
 	min-height: 100vh;
@@ -2370,6 +2379,9 @@ select {
 }
 .p-0 {
 	padding: 0px;
+}
+.p-2 {
+	padding: 0.5rem;
 }
 .py-4 {
 	padding-top: 1rem;
@@ -2989,6 +3001,10 @@ select {
 
 	.lg\:h-730-px {
 		height: 730px;
+	}
+
+	.lg\:h-600-px {
+		height: 600px;
 	}
 
 	.lg\:w-6\/12 {
