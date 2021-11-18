@@ -27,10 +27,10 @@
                     </div>
                     <div class="qs-object w-full lg:w-2/12  py-4" id="jAPFnM" style="height: 100px">
                     </div>
-                    <div class="qs-object w-full lg:w-2/12 py-4" id="zbVfh" style="height: 100px">
-                    </div>
                     <div class="qs-object w-full lg:w-2/12 py-4" id="qmHSPtA"
                         style="height: 100px">
+                    </div>
+                    <div class="qs-object w-full lg:w-2/12 py-4" id="zbVfh" style="height: 100px">
                     </div>
                 </div>
             </div>
