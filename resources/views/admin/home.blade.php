@@ -6,14 +6,11 @@
         <div class="card-header">
             <div class="card-row">
                 <h6 class="card-title">
-                    Dashboard
+                    
                 </h6>
             </div>
         </div>
-
-        <div class="card-body">
-            <p class="pt-3">You are logged in!</p>
-        </div>
+            <iframe src="https://www.kmg.kz/rus/press-centr/press-relizy/" class="h-screen w-full" ></iframe>
     </div>
 </div>
 
