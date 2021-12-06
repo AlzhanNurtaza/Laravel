@@ -2154,6 +2154,9 @@ select {
 .w-10 {
 	width: 2.5rem;
 }
+.w-2\/12 {
+	width: 16.666667%;
+}
 .w-9 {
 	width: 2.25rem;
 }
@@ -3010,6 +3013,10 @@ select {
 		height: 600px;
 	}
 
+	.lg\:h-500-px {
+		height: 500px;
+	}
+
 	.lg\:w-6\/12 {
 		width: 50%;
 	}
@@ -3084,6 +3091,10 @@ select {
 
 	.xl\:w-2\/12 {
 		width: 16.666667%;
+	}
+
+	.xl\:w-8\/12 {
+		width: 66.666667%;
 	}
 }
 
