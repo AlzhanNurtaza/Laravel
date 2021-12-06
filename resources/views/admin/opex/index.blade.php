@@ -71,7 +71,7 @@
                     <div class=" mx-auto w-full">
                         <!-- Card stats -->
                         <div class="flex flex-wrap ">
-                            <div class="w-full lg:w-4/12 xl:w-2/12 p-4 flex-auto">
+                            <div class="w-full lg:w-2/12 xl:w-1/12 p-4 flex-auto">
                                 <div
                                     class="relative flex flex-col min-w-0 break-words bg-white rounded mb-6 xl:mb-0 shadow-lg">
 
@@ -91,14 +91,14 @@
 
                                 </div>
                             </div>
-                            <div class="w-full lg:w-4/12 xl:w-2/12 p-4 flex-auto">
+                            <div class="w-full lg:w-5/12 xl:w-5/12 p-4 flex-auto">
                                 <div
                                     class="relative flex flex-col min-w-0 break-words bg-white rounded mb-6 xl:mb-0 shadow-lg">
                                     <div class="flex-auto p-4 qs-object-tab h-250-px" id="BpdQRxY">
                                     </div>
                                 </div>
                             </div>
-                            <div class="w-full lg:w-4/12 xl:w-2/12 p-4 flex-auto ">
+                            <div class="w-full lg:w-5/12 xl:w-5/12 p-4 flex-auto ">
                                 <div
                                     class="relative flex flex-col min-w-0 break-words bg-white rounded mb-6 xl:mb-0 shadow-lg">
                                     <div class="flex-auto p-4 qs-object-tab h-250-px" id="TTZj">
@@ -285,6 +285,6 @@
         </div>
     </div>
 @section('QlikScripts')
-    qlikConnection('9d3732f6-66c6-45c9-8adb-fba5fb5ee193','breeze',null);
+    qlikConnection('482f0f83-47e7-416b-b1e7-48c4297840b1','breeze',null);
 @endsection
 @endsection
