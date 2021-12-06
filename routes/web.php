@@ -14,6 +14,8 @@ use App\Http\Controllers\Admin\KpiKpiController;
 use App\Http\Controllers\Auth\UserProfileController;
 use App\Http\Controllers\Admin\OPiUController;
 use App\Http\Controllers\Admin\ProductionVolumeController;
+use App\Http\Controllers\Admin\OpexController;
+use App\Http\Controllers\Admin\CapexController;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Route;
 
@@ -63,6 +65,12 @@ Route::group(['prefix' => 'admin', 'as' => 'admin.', 'middleware' => ['auth']], 
 
     // Production Volume
     Route::resource('production-volumes', ProductionVolumeController::class, ['except' => ['store', 'update', 'destroy']]);
+    
+    // Opex
+    Route::resource('opexes', OpexController::class, ['except' => ['store', 'update', 'destroy']]);
+
+    // Capex
+    Route::resource('capexes', CapexController::class, ['except' => ['store', 'update', 'destroy']]);
 });
 
 Route::group(['prefix' => 'profile', 'as' => 'profile.', 'middleware' => ['auth']], function () {

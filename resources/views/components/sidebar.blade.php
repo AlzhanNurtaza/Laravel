@@ -171,6 +171,24 @@
                         </a>
                     </li>
                 @endcan
+                @can('opex_access')
+                    <li class="items-center">
+                        <a class="{{ request()->is("admin/opexes*") ? "sidebar-nav-active" : "sidebar-nav" }}" href="{{ route("admin.opexes.index") }}">
+                            <i class="fa-fw c-sidebar-nav-icon far fa-chart-bar">
+                            </i>
+                            {{ trans('cruds.opex.title') }}
+                        </a>
+                    </li>
+                @endcan
+                @can('capex_access')
+                    <li class="items-center">
+                        <a class="{{ request()->is("admin/capexes*") ? "sidebar-nav-active" : "sidebar-nav" }}" href="{{ route("admin.capexes.index") }}">
+                            <i class="fa-fw c-sidebar-nav-icon far fa-chart-bar">
+                            </i>
+                            {{ trans('cruds.capex.title') }}
+                        </a>
+                    </li>
+                @endcan
                 
             </ul>
         </div>

@@ -105,4 +105,12 @@ return [
         'title'          => 'Производственные показатели',
         'title_singular' => 'Производственные показатели',
     ],
+    'opex' => [
+        'title'          => 'OPEX',
+        'title_singular' => 'OPEX',
+    ],
+    'capex' => [
+        'title'          => 'CAPEX',
+        'title_singular' => 'CAPEX',
+    ],
 ];
