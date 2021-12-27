@@ -79,6 +79,51 @@
                         </ul>
                     </li>
                 @endcan
+                @can('o_pi_u_access')
+                    <li class="items-center">
+                        <a class="{{ request()->is("admin/o-pi-us*") ? "sidebar-nav-active" : "sidebar-nav" }}" href="{{ route("admin.o-pi-us.index") }}">
+                            <i class="fa-fw c-sidebar-nav-icon far fa-chart-bar">
+                            </i>
+                            {{ trans('cruds.oPiU.title') }}
+                        </a>
+                    </li>
+                @endcan
+                @can('opex_access')
+                    <li class="items-center">
+                        <a class="{{ request()->is("admin/opexes*") ? "sidebar-nav-active" : "sidebar-nav" }}" href="{{ route("admin.opexes.index") }}">
+                            <i class="fa-fw c-sidebar-nav-icon far fa-chart-bar">
+                            </i>
+                            {{ trans('cruds.opex.title') }}
+                        </a>
+                    </li>
+                @endcan
+                @can('capex_access')
+                    <li class="items-center">
+                        <a class="{{ request()->is("admin/capexes*") ? "sidebar-nav-active" : "sidebar-nav" }}" href="{{ route("admin.capexes.index") }}">
+                            <i class="fa-fw c-sidebar-nav-icon far fa-chart-bar">
+                            </i>
+                            {{ trans('cruds.capex.title') }}
+                        </a>
+                    </li>
+                @endcan
+                @can('production_volume_access')
+                    <li class="items-center">
+                        <a class="{{ request()->is("admin/production-volumes*") ? "sidebar-nav-active" : "sidebar-nav" }}" href="{{ route("admin.production-volumes.index") }}">
+                            <i class="fa-fw c-sidebar-nav-icon far fa-chart-bar">
+                            </i>
+                            {{ trans('cruds.productionVolume.title') }}
+                        </a>
+                    </li>
+                @endcan
+                @can('kpi_zpp_access')
+                    <li class="items-center">
+                        <a class="{{ request()->is("admin/kpi-zpps*") ? "sidebar-nav-active" : "sidebar-nav" }}" href="{{ route("admin.kpi-zpps.index") }}">
+                            <i class="fa-fw c-sidebar-nav-icon far fa-chart-bar">
+                            </i>
+                            {{ trans('cruds.kpiZpp.title') }}
+                        </a>
+                    </li>
+                @endcan
                 @can('kpi_general_access')
                     <li class="items-center">
                         <a class="has-sub {{ request()->is("admin/kpi-gen-anpzs*")||request()->is("admin/kpi-gen-pnhzs*")||request()->is("admin/kpi-gen-pkops*")||request()->is("admin/kpi-gen-c-bs*")||request()->is("admin/kpi-klpes*")||request()->is("admin/kpi-kpis*") ? "sidebar-nav-active" : "sidebar-nav" }}" href="#" onclick="window.openSubNav(this)">
@@ -144,51 +189,10 @@
                         </ul>
                     </li>
                 @endcan
-                @can('kpi_zpp_access')
-                    <li class="items-center">
-                        <a class="{{ request()->is("admin/kpi-zpps*") ? "sidebar-nav-active" : "sidebar-nav" }}" href="{{ route("admin.kpi-zpps.index") }}">
-                            <i class="fa-fw c-sidebar-nav-icon far fa-chart-bar">
-                            </i>
-                            {{ trans('cruds.kpiZpp.title') }}
-                        </a>
-                    </li>
-                @endcan
-                @can('o_pi_u_access')
-                    <li class="items-center">
-                        <a class="{{ request()->is("admin/o-pi-us*") ? "sidebar-nav-active" : "sidebar-nav" }}" href="{{ route("admin.o-pi-us.index") }}">
-                            <i class="fa-fw c-sidebar-nav-icon far fa-chart-bar">
-                            </i>
-                            {{ trans('cruds.oPiU.title') }}
-                        </a>
-                    </li>
-                @endcan
-                @can('production_volume_access')
-                    <li class="items-center">
-                        <a class="{{ request()->is("admin/production-volumes*") ? "sidebar-nav-active" : "sidebar-nav" }}" href="{{ route("admin.production-volumes.index") }}">
-                            <i class="fa-fw c-sidebar-nav-icon far fa-chart-bar">
-                            </i>
-                            {{ trans('cruds.productionVolume.title') }}
-                        </a>
-                    </li>
-                @endcan
-                @can('opex_access')
-                    <li class="items-center">
-                        <a class="{{ request()->is("admin/opexes*") ? "sidebar-nav-active" : "sidebar-nav" }}" href="{{ route("admin.opexes.index") }}">
-                            <i class="fa-fw c-sidebar-nav-icon far fa-chart-bar">
-                            </i>
-                            {{ trans('cruds.opex.title') }}
-                        </a>
-                    </li>
-                @endcan
-                @can('capex_access')
-                    <li class="items-center">
-                        <a class="{{ request()->is("admin/capexes*") ? "sidebar-nav-active" : "sidebar-nav" }}" href="{{ route("admin.capexes.index") }}">
-                            <i class="fa-fw c-sidebar-nav-icon far fa-chart-bar">
-                            </i>
-                            {{ trans('cruds.capex.title') }}
-                        </a>
-                    </li>
-                @endcan
+                
+                
+                
+                
                 
             </ul>
         </div>
