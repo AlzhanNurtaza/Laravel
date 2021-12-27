@@ -9,7 +9,7 @@
                     </h6>
                 </div>
             </div>
-            <div class="card-body !pb-0" style="min-height: 130px">
+            <div class="card-body !pb-0" style="min-height: 180px">
                 <div class="flex flex-wrap filterpane">
 
                     <div class="qs-object w-6/12 lg:w-3/12" id="yCVxcU" style="height: 60px">
@@ -27,6 +27,12 @@
                     <div class="qs-object w-6/12 lg:w-3/12" id="dVEwSsP" style="height: 60px">
                     </div>
                     <div class="qs-object w-6/12 lg:w-3/12" id="SaJjySN" style="height: 60px">
+                    </div>
+                </div>
+                <div class="flex flex-wrap filterpane">
+                    <div class="qs-object w-3/12 lg:w-1/12" id="37b977f0-ffae-4ab1-a419-383623fc37c5" style="height: 30px">
+                    </div>
+                    <div class="qs-object w-3/12 lg:w-1/12" id="e5afb703-aba3-4936-8efa-ca205cda2930" style="height: 30px">
                     </div>
                 </div>
             </div>
@@ -65,18 +71,18 @@
                                 <div
                                     class="relative flex flex-col min-w-0 break-words bg-white rounded mb-6 xl:mb-0 shadow-lg">
 
-                                    <div class="flex-auto p-2 qs-object-tab h-50-px"
-                                        id="37b977f0-ffae-4ab1-a419-383623fc37c5">
+                                    <div class="flex-auto p-2  h-50-px"
+                                        >
                                     </div>
 
-                                    <div class="flex-auto p-2 qs-object-tab h-50-px"
-                                        id="e5afb703-aba3-4936-8efa-ca205cda2930">
+                                    <div class="flex-auto p-2  h-50-px"
+                                       >
                                     </div>
 
-                                    <div class="flex-auto p-2 qs-object-tab h-50-px" id="zEwMYJ">
+                                    <div class="flex-auto p-2  h-50-px" >
                                     </div>
 
-                                    <div class="flex-auto p-2 qs-object-tab h-100-px" id="LHnEa">
+                                    <div class="flex-auto p-2  h-100-px">
                                     </div>
 
                                 </div>
@@ -141,7 +147,11 @@
                         <div class="flex flex-wrap">
                             <div class="w-full lg:w-6/12  p-4">
                                 <div class="relative  break-words bg-white rounded mb-6 xl:mb-0 shadow-lg">
-                                    <div class="w-full p-4 qs-object-tab h-350-px  lg:h-600-px" id="BpVr">
+                                    <div class="w-full p-4 qs-object-tab h-100-px" id="LHnEa">
+                                    </div>
+                                </div>
+                                <div class="relative  break-words bg-white rounded mb-6 xl:mb-0 shadow-lg">
+                                    <div class="w-full p-4 qs-object-tab  h-350-px  lg:h-500-px" id="BpVr">
                                     </div>
                                 </div>
                             </div>
