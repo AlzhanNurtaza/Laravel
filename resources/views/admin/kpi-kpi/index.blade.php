@@ -1,7 +1,7 @@
 @extends('layouts.adminQlikCapability')
 @section('content')
-    <div class="row m-0">
-        <div class="card bg-white">
+    <div class="row m-0 ">
+        <div class="card bg-white mb-0 !rounded-none !rounded-t-lg">
             <div class="card-header border-b border-blueGray-200">
                 <div class="card-header-container">
                     <h6 class="card-title">
@@ -9,20 +9,19 @@
                     </h6>
                 </div>
             </div>
-
-            <div class="card-body" style="min-height: 140px">
-                <div class="flex flex-wrap">
-
-                    <div class="w-full" id="CurrentSelections">
-
+            <div class="card-body !pb-0" style="min-height: 65px">
+                <div class="flex flex-wrap filterpane ">
+                    <div class="qs-object w-6/12 lg:w-3/12" id="yqvADd" style="height: 60px">
                     </div>
-                    <div class="qs-object w-full md:w-6/12 lg:w-6/12 xl:w-6/12  py-4" id="yqvADd" style="height: 60px">
+                    <div class="qs-object w-6/12 lg:w-3/12" id="93dc8873-4423-45b3-8843-2642bd1762ca" style="height: 60px">
                     </div>
-                    <div class="qs-object  w-full md:w-6/12 lg:w-6/12 xl:w-6/12 py-4"
-                        id="93dc8873-4423-45b3-8843-2642bd1762ca" style="height: 60px">
-                    </div>
-
                 </div>
+            </div>
+        </div>
+    </div>
+    <div class="row m-0 sticky top-0 z-50 " style="min-height: 40px">
+        <div class="flex flex-wrap filterpane ">
+            <div class="w-full" id="CurrentSelections">
             </div>
         </div>
     </div>

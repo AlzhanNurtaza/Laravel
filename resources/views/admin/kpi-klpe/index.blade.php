@@ -1,7 +1,7 @@
 @extends('layouts.adminQlikCapability')
 @section('content')
-    <div class="row m-0">
-        <div class="card bg-white">
+    <div class="row m-0 ">
+        <div class="card bg-white mb-0 !rounded-none !rounded-t-lg">
             <div class="card-header border-b border-blueGray-200">
                 <div class="card-header-container">
                     <h6 class="card-title">
@@ -9,20 +9,19 @@
                     </h6>
                 </div>
             </div>
-
-            <div class="card-body" style="min-height: 140px">
-                <div class="flex flex-wrap">
-
-                    <div class="w-full" id="CurrentSelections">
-
+            <div class="card-body !pb-0" style="min-height: 65px">
+                <div class="flex flex-wrap filterpane ">
+                    <div class="qs-object w-6/12 lg:w-3/12" id="yqvADd" style="height: 60px">
                     </div>
-                    <div class="qs-object w-full md:w-6/12 lg:w-6/12 xl:w-6/12  py-4" id="yqvADd" style="height: 60px">
+                    <div class="qs-object w-6/12 lg:w-3/12" id="93dc8873-4423-45b3-8843-2642bd1762ca" style="height: 60px">
                     </div>
-                    <div class="qs-object  w-full md:w-6/12 lg:w-6/12 xl:w-6/12 py-4"
-                        id="93dc8873-4423-45b3-8843-2642bd1762ca" style="height: 60px">
-                    </div>
-
                 </div>
+            </div>
+        </div>
+    </div>
+    <div class="row m-0 sticky top-0 z-50 " style="min-height: 40px">
+        <div class="flex flex-wrap filterpane ">
+            <div class="w-full" id="CurrentSelections">
             </div>
         </div>
     </div>
@@ -33,37 +32,37 @@
             <ul class="flex mb-0 list-none flex-wrap pt-3 p-4 flex-row">
                 <li class="-mb-px mr-2 last:mr-0 flex-auto text-center mt-4">
                     <a class="text-xs font-bold uppercase px-5 py-3 shadow-lg rounded block leading-normal text-white bg-senseColor-600 cursor-pointer"
-                        data-tab-toggle="tab0" onclick="changeAtiveTab(event,'wrapper-for-text-pink','pink','tab0')">
+                        data-tab-toggle="tab0" onclick="changeAtiveTab(event,'wrapper-for-text-pink','senseColor','tab0')">
                         Сводная информация
                     </a>
                 </li>
                 <li class="-mb-px mr-2 last:mr-0 flex-auto text-center mt-4">
                     <a class="text-xs font-bold uppercase px-5 py-3 shadow-lg rounded block leading-normal text-senseColor-600 bg-white cursor-pointer"
-                        data-tab-toggle="tab1" onclick="changeAtiveTab(event,'wrapper-for-text-pink','pink','tab1')">
+                        data-tab-toggle="tab1" onclick="changeAtiveTab(event,'wrapper-for-text-pink','senseColor','tab1')">
                         Term Sheet
                     </a>
                 </li>
                 <li class="-mb-px mr-2 last:mr-0 flex-auto text-center mt-4">
                     <a class="text-xs font-bold uppercase px-5 py-3 shadow-lg rounded block leading-normal text-senseColor-600 bg-white cursor-pointer"
-                        data-tab-toggle="tab2" onclick="changeAtiveTab(event,'wrapper-for-text-pink','pink','tab2')">
+                        data-tab-toggle="tab2" onclick="changeAtiveTab(event,'wrapper-for-text-pink','senseColor','tab2')">
                         PDP
                     </a>
                 </li>
                 <li class="-mb-px mr-2 last:mr-0 flex-auto text-center mt-4">
                     <a class="text-xs font-bold uppercase px-5 py-3 shadow-lg rounded block leading-normal text-senseColor-600 bg-white cursor-pointer"
-                        data-tab-toggle="tab3" onclick="changeAtiveTab(event,'wrapper-for-text-pink','pink','tab3')">
+                        data-tab-toggle="tab3" onclick="changeAtiveTab(event,'wrapper-for-text-pink','senseColor','tab3')">
                         FEED
                     </a>
                 </li>
                 <li class="-mb-px mr-2 last:mr-0 flex-auto text-center mt-4">
                     <a class="text-xs font-bold uppercase px-5 py-3 shadow-lg rounded block leading-normal text-senseColor-600 bg-white cursor-pointer"
-                        data-tab-toggle="tab4" onclick="changeAtiveTab(event,'wrapper-for-text-pink','pink','tab4')">
+                        data-tab-toggle="tab4" onclick="changeAtiveTab(event,'wrapper-for-text-pink','senseColor','tab4')">
                         Документы НГХ
                     </a>
                 </li>
                 <li class="-mb-px mr-2 last:mr-0 flex-auto text-center mt-4">
                     <a class="text-xs font-bold uppercase px-5 py-3 shadow-lg rounded block leading-normal text-senseColor-600 bg-white cursor-pointer"
-                        data-tab-toggle="tab5" onclick="changeAtiveTab(event,'wrapper-for-text-pink','pink','tab5')">
+                        data-tab-toggle="tab5" onclick="changeAtiveTab(event,'wrapper-for-text-pink','senseColor','tab5')">
                         Закупки
                     </a>
                 </li>
