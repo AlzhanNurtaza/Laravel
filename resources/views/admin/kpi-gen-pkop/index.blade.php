@@ -32,55 +32,55 @@
         <div class="w-full">
             <ul class="flex mb-0 list-none flex-wrap pt-3 p-4 flex-row">
                 <li class="-mb-px mr-2 last:mr-0 flex-auto text-center mt-4">
-                    <a class="text-xs font-bold uppercase px-5 py-3 shadow-lg rounded block leading-normal text-white bg-pink-600 cursor-pointer"
+                    <a class="text-xs font-bold uppercase px-5 py-3 shadow-lg rounded block leading-normal text-white bg-senseColor-600 cursor-pointer"
                         data-tab-toggle="tab0" onclick="changeAtiveTab(event,'wrapper-for-text-pink','pink','tab0')">
                         Сводная информация
                     </a>
                 </li>
                 <li class="-mb-px mr-2 last:mr-0 flex-auto text-center mt-4">
-                    <a class="text-xs font-bold uppercase px-5 py-3 shadow-lg rounded block leading-normal text-pink-600 bg-white cursor-pointer"
+                    <a class="text-xs font-bold uppercase px-5 py-3 shadow-lg rounded block leading-normal text-senseColor-600 bg-white cursor-pointer"
                         data-tab-toggle="tab1" onclick="changeAtiveTab(event,'wrapper-for-text-pink','pink','tab1')">
                         Выход светлых
                     </a>
                 </li>
                 <li class="-mb-px mr-2 last:mr-0 flex-auto text-center mt-4">
-                    <a class="text-xs font-bold uppercase px-5 py-3 shadow-lg rounded block leading-normal text-pink-600 bg-white cursor-pointer"
+                    <a class="text-xs font-bold uppercase px-5 py-3 shadow-lg rounded block leading-normal text-senseColor-600 bg-white cursor-pointer"
                         data-tab-toggle="tab2" onclick="changeAtiveTab(event,'wrapper-for-text-pink','pink','tab2')">
                         OPEX/CAPEX
                     </a>
                 </li>
                 <li class="-mb-px mr-2 last:mr-0 flex-auto text-center mt-4">
-                    <a class="text-xs font-bold uppercase px-5 py-3 shadow-lg rounded block leading-normal text-pink-600 bg-white cursor-pointer"
+                    <a class="text-xs font-bold uppercase px-5 py-3 shadow-lg rounded block leading-normal text-senseColor-600 bg-white cursor-pointer"
                         data-tab-toggle="tab3" onclick="changeAtiveTab(event,'wrapper-for-text-pink','pink','tab3')">
                         Остановочный ремонт
                     </a>
                 </li>
                 <li class="-mb-px mr-2 last:mr-0 flex-auto text-center mt-4">
-                    <a class="text-xs font-bold uppercase px-5 py-3 shadow-lg rounded block leading-normal text-pink-600 bg-white cursor-pointer"
+                    <a class="text-xs font-bold uppercase px-5 py-3 shadow-lg rounded block leading-normal text-senseColor-600 bg-white cursor-pointer"
                         data-tab-toggle="tab4" onclick="changeAtiveTab(event,'wrapper-for-text-pink','pink','tab4')">
                         ЧДП
                     </a>
                 </li>
                 <li class="-mb-px mr-2 last:mr-0 flex-auto text-center mt-4">
-                    <a class="text-xs font-bold uppercase px-5 py-3 shadow-lg rounded block leading-normal text-pink-600 bg-white cursor-pointer"
+                    <a class="text-xs font-bold uppercase px-5 py-3 shadow-lg rounded block leading-normal text-senseColor-600 bg-white cursor-pointer"
                         data-tab-toggle="tab5" onclick="changeAtiveTab(event,'wrapper-for-text-pink','pink','tab5')">
                         Займы
                     </a>
                 </li>
                 <li class="-mb-px mr-2 last:mr-0 flex-auto text-center mt-4">
-                    <a class="text-xs font-bold uppercase px-5 py-3 shadow-lg rounded block leading-normal text-pink-600 bg-white cursor-pointer"
+                    <a class="text-xs font-bold uppercase px-5 py-3 shadow-lg rounded block leading-normal text-senseColor-600 bg-white cursor-pointer"
                         data-tab-toggle="tab6" onclick="changeAtiveTab(event,'wrapper-for-text-pink','pink','tab6')">
                         Реализация бизнес-инициатив
                     </a>
                 </li>
                 <li class="-mb-px mr-2 last:mr-0 flex-auto text-center mt-4">
-                    <a class="text-xs font-bold uppercase px-5 py-3 shadow-lg rounded block leading-normal text-pink-600 bg-white cursor-pointer"
+                    <a class="text-xs font-bold uppercase px-5 py-3 shadow-lg rounded block leading-normal text-senseColor-600 bg-white cursor-pointer"
                         data-tab-toggle="tab7" onclick="changeAtiveTab(event,'wrapper-for-text-pink','pink','tab7')">
                         Бенчмаркинг
                     </a>
                 </li>
                 <li class="-mb-px mr-2 last:mr-0 flex-auto text-center mt-4">
-                    <a class="text-xs font-bold uppercase px-5 py-3 shadow-lg rounded block leading-normal text-pink-600 bg-white cursor-pointer"
+                    <a class="text-xs font-bold uppercase px-5 py-3 shadow-lg rounded block leading-normal text-senseColor-600 bg-white cursor-pointer"
                         data-tab-toggle="tab8" onclick="changeAtiveTab(event,'wrapper-for-text-pink','pink','tab8')">
                         LTIR
                     </a>

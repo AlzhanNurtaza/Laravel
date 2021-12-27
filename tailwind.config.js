@@ -18,7 +18,10 @@ module.exports = {
         blueGray: colors.blueGray,
         lightBlue: colors.sky,
         orange: colors.orange,
-        red: colors.red
+        red: colors.red,
+        senseColor: {
+          600:'#26a0a7'
+        }
       },
       minHeight: {
         'screen-75': '75vh'
