@@ -19,7 +19,7 @@
             </div>
         </div>
     </div>
-    <div class="row m-0 sticky top-0 z-50 " style="min-height: 40px">
+    <div class="row m-0 sticky top-0  z-2" style="min-height: 40px">
         <div class="flex flex-wrap filterpane ">
             <div class="w-full" id="CurrentSelections">
             </div>

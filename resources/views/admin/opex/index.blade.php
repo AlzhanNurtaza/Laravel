@@ -12,11 +12,11 @@
             <div class="card-body !pb-0" style="min-height: 180px">
                 <div class="flex flex-wrap filterpane ">
 
-                    <div class="qs-object w-6/12 lg:w-3/12" id="yCVxcU" style="height: 60px">
+                    <div class="qs-object w-6/12 lg:w-3/12" id="yCVxcU" style="height: 85px">
                     </div>
-                    <div class="qs-object w-6/12 lg:w-3/12" id="42fae803-1154-4560-8db6-292eca9517a3" style="height: 60px">
+                    <div class="qs-object w-6/12 lg:w-3/12" id="42fae803-1154-4560-8db6-292eca9517a3" style="height: 85px">
                     </div>
-                    <div class="qs-object w-6/12 lg:w-3/12" id="3e6556a4-4f54-4ceb-b355-eee079c08c27" style="height: 60px">
+                    <div class="qs-object w-full lg:w-3/12" id="3e6556a4-4f54-4ceb-b355-eee079c08c27" style="height: 85px">
                     </div>
                 </div>
                 <div class="flex flex-wrap filterpane">
@@ -28,15 +28,15 @@
                     </div>
                 </div>
                 <div class="flex flex-wrap filterpane">
-                    <div class="qs-object w-3/12 lg:w-1/12" id="37b977f0-ffae-4ab1-a419-383623fc37c5" style="height: 30px">
+                    <div class="qs-object w-6/12 lg:w-1/12" id="37b977f0-ffae-4ab1-a419-383623fc37c5" style="height: 30px">
                     </div>
-                    <div class="qs-object w-3/12 lg:w-1/12" id="e5afb703-aba3-4936-8efa-ca205cda2930" style="height: 30px">
+                    <div class="qs-object w-6/12 lg:w-1/12" id="e5afb703-aba3-4936-8efa-ca205cda2930" style="height: 30px">
                     </div>
                 </div>
             </div>
         </div>
     </div>
-    <div class="row m-0 sticky top-0 z-50 " style="min-height: 40px">
+    <div class="row m-0 sticky top-0  z-2" style="min-height: 40px">
         <div class="flex flex-wrap filterpane">
             <div class="w-full" id="CurrentSelections">
             </div>
@@ -161,13 +161,13 @@
                                 <div
                                     class="relative flex flex-col min-w-0 break-words bg-white rounded mb-6 xl:mb-0 shadow-lg">
 
-                                    <div class="flex-auto p-2 qs-object-tab h-50-px" id="GCkqAAg">
-                                    </div>
-                                    <div class="flex-auto p-2 qs-object-tab h-50-px" id="DkEmDN">
-                                    </div>
-
                                     <div class="flex-auto p-2 qs-object-tab h-150-px" id="zMqt">
                                     </div>
+                                    <div class="flex-auto p-2  h-50-px" ">
+                                        </div>
+                                        <div class=" flex-auto p-2 h-50-px">
+                                    </div>
+
                                 </div>
                             </div>
                             <div class="w-full lg:w-3/12 xl:w-2/12 p-4 flex-auto">
@@ -232,18 +232,6 @@
                 </div>
                 <div class="hidden" data-tab-content="true" id="tab2">
                     <div class=" mx-auto w-full">
-                        <!-- Card stats -->
-                        <div class="w-2/12  p-4 ">
-                            <div
-                                class="relative flex flex-col min-w-0 break-words bg-white rounded mb-6 xl:mb-0 shadow-lg">
-
-                                <div class="flex-auto p-2 qs-object-tab h-50-px" id="GuWNJKV">
-                                </div>
-                                <div class="flex-auto p-2 qs-object-tab h-50-px" id="KjvUEeW">
-                                </div>
-                            </div>
-                        </div>
-
 
                         <div class="w-full  p-4 flex-auto">
                             <div
@@ -267,7 +255,7 @@
                 <div class="hidden" data-tab-content="true" id="tab3">
                     <!-- Blocks 1 -->
                     <div class=" mx-auto w-full">
-                        <div class="w-full   p-4 hidden lg:block">
+                        <div class="w-full   p-4">
                             <div class="relative  break-words bg-white rounded mb-6 xl:mb-0 shadow-lg">
                                 <div class="w-full p-4 qs-object-tab h-350-px lg:h-600-px" id="RumQj">
                                 </div>

@@ -12,9 +12,9 @@
             <div class="card-body !pb-0" style="min-height: 185px">
                 <div class="flex flex-wrap filterpane">
 
-                    <div class="qs-object w-6/12 lg:w-3/12" id="QLxrZVu" style="height: 60px">
+                    <div class="qs-object w-6/12 lg:w-3/12" id="QLxrZVu" style="height: 85px">
                     </div>
-                    <div class="qs-object w-6/12 lg:w-3/12" id="kXzmbuB" style="height: 60px">
+                    <div class="qs-object w-6/12 lg:w-3/12" id="kXzmbuB" style="height: 85px">
                     </div>
                 </div>
                 <div class="flex flex-wrap filterpane">
@@ -28,15 +28,15 @@
                     </div>
                 </div>
                 <div class="flex flex-wrap filterpane">
-                    <div class="qs-object w-3/12 lg:w-1/12" id="TFXePXR" style="height: 30px">
+                    <div class="qs-object w-6/12 lg:w-1/12" id="TFXePXR" style="height: 30px">
                     </div>
-                    <div class="qs-object w-3/12 lg:w-1/12" id="Yrdbhz" style="height: 30px">
+                    <div class="qs-object w-6/12 lg:w-1/12" id="Yrdbhz" style="height: 30px">
                     </div>
                 </div>
             </div>
         </div>
     </div>
-    <div class="row m-0 sticky top-0 z-50 " style="min-height: 40px">
+    <div class="row m-0 sticky top-0  z-2" style="min-height: 40px">
         <div class="flex flex-wrap filterpane">
             <div class="w-full" id="CurrentSelections">
             </div>
@@ -59,26 +59,7 @@
                     <div class=" mx-auto w-full">
                         <!-- Card stats -->
                         <div class="flex flex-wrap ">
-                            <div class="w-full lg:w-1/12 p-4 flex-auto lg:max-w-200-px">
-                                <div
-                                    class="relative flex flex-col min-w-0 break-words bg-white rounded mb-6 xl:mb-0 shadow-lg">
-
-
-
-                                    <div class="flex-auto p-2 h-50-px">
-                                    </div>
-
-                                    <div class="flex-auto p-2 h-100-px">
-                                    </div>
-
-                                    <div class="flex-auto p-2  h-50-px" >
-                                    </div>
-
-                                    <div class="flex-auto p-2  h-50-px" >
-                                    </div>
-
-                                </div>
-                            </div>
+ 
                             <div class="w-full lg:w-4/12 xl:w-2/12 p-4 flex-auto">
                                 <div
                                     class="relative flex flex-col min-w-0 break-words bg-white rounded mb-6 xl:mb-0 shadow-lg">

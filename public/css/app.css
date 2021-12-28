@@ -1952,6 +1952,9 @@ select {
 .z-50 {
 	z-index: 50;
 }
+.z-2 {
+	z-index: 2;
+}
 .z-0 {
 	z-index: 0;
 }
@@ -2157,9 +2160,6 @@ select {
 }
 .w-10 {
 	width: 2.5rem;
-}
-.w-2\/12 {
-	width: 16.666667%;
 }
 .w-9 {
 	width: 2.25rem;
@@ -2492,9 +2492,6 @@ select {
 }
 .\!pb-0 {
 	padding-bottom: 0px !important;
-}
-.pt-1 {
-	padding-top: 0.25rem;
 }
 .text-left {
 	text-align: left;
@@ -3050,6 +3047,10 @@ select {
 		width: 25%;
 	}
 
+	.lg\:w-1\/12 {
+		width: 8.333333%;
+	}
+
 	.lg\:w-2\/12 {
 		width: 16.666667%;
 	}
@@ -3062,16 +3063,8 @@ select {
 		width: 75%;
 	}
 
-	.lg\:w-1\/12 {
-		width: 8.333333%;
-	}
-
 	.lg\:w-8\/12 {
 		width: 66.666667%;
-	}
-
-	.lg\:max-w-200-px {
-		max-width: 200px;
 	}
 
 	.lg\:px-8 {
