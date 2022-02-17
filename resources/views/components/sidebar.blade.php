@@ -79,6 +79,15 @@
                         </ul>
                     </li>
                 @endcan
+                @can('general_access')
+                    <li class="items-center">
+                        <a class="{{ request()->is("admin/generals*") ? "sidebar-nav-active" : "sidebar-nav" }}" href="{{ route("admin.generals.index") }}">
+                            <i class="fa-fw c-sidebar-nav-icon far fa-chart-bar">
+                            </i>
+                            {{ trans('cruds.general.title') }}
+                        </a>
+                    </li>
+                @endcan
                 @can('o_pi_u_access')
                     <li class="items-center">
                         <a class="{{ request()->is("admin/o-pi-us*") ? "sidebar-nav-active" : "sidebar-nav" }}" href="{{ route("admin.o-pi-us.index") }}">
@@ -103,6 +112,33 @@
                             <i class="fa-fw c-sidebar-nav-icon far fa-chart-bar">
                             </i>
                             {{ trans('cruds.capex.title') }}
+                        </a>
+                    </li>
+                @endcan
+                @can('dd_access')
+                    <li class="items-center">
+                        <a class="{{ request()->is("admin/dds*") ? "sidebar-nav-active" : "sidebar-nav" }}" href="{{ route("admin.dds.index") }}">
+                            <i class="fa-fw c-sidebar-nav-icon far fa-chart-bar">
+                            </i>
+                            {{ trans('cruds.dd.title') }}
+                        </a>
+                    </li>
+                @endcan
+                @can('balance_access')
+                    <li class="items-center">
+                        <a class="{{ request()->is("admin/balances*") ? "sidebar-nav-active" : "sidebar-nav" }}" href="{{ route("admin.balances.index") }}">
+                            <i class="fa-fw c-sidebar-nav-icon far fa-chart-bar">
+                            </i>
+                            {{ trans('cruds.balance.title') }}
+                        </a>
+                    </li>
+                @endcan
+                @can('oil_tariff_access')
+                    <li class="items-center">
+                        <a class="{{ request()->is("admin/oil-tariffs*") ? "sidebar-nav-active" : "sidebar-nav" }}" href="{{ route("admin.oil-tariffs.index") }}">
+                            <i class="fa-fw c-sidebar-nav-icon far fa-chart-bar">
+                            </i>
+                            {{ trans('cruds.oilTariff.title') }}
                         </a>
                     </li>
                 @endcan

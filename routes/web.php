@@ -1,21 +1,24 @@
 <?php
-
+use App\Http\Controllers\Admin\BalanceController;
+use App\Http\Controllers\Admin\CapexController;
+use App\Http\Controllers\Admin\DdController;
+use App\Http\Controllers\Admin\GeneralController;
 use App\Http\Controllers\Admin\HomeController;
 use App\Http\Controllers\Admin\KpiGenAnpzController;
 use App\Http\Controllers\Admin\KpiGenCBController;
 use App\Http\Controllers\Admin\KpiGenPkopController;
 use App\Http\Controllers\Admin\KpiGenPnhzController;
-use App\Http\Controllers\Admin\PermissionController;
-use App\Http\Controllers\Admin\KpiZppController;
-use App\Http\Controllers\Admin\RoleController;
-use App\Http\Controllers\Admin\UserController;
 use App\Http\Controllers\Admin\KpiKlpeController;
 use App\Http\Controllers\Admin\KpiKpiController;
-use App\Http\Controllers\Auth\UserProfileController;
-use App\Http\Controllers\Admin\OPiUController;
-use App\Http\Controllers\Admin\ProductionVolumeController;
+use App\Http\Controllers\Admin\KpiZppController;
+use App\Http\Controllers\Admin\OilTariffController;
 use App\Http\Controllers\Admin\OpexController;
-use App\Http\Controllers\Admin\CapexController;
+use App\Http\Controllers\Admin\OPiUController;
+use App\Http\Controllers\Admin\PermissionController;
+use App\Http\Controllers\Admin\ProductionVolumeController;
+use App\Http\Controllers\Admin\RoleController;
+use App\Http\Controllers\Admin\UserController;
+use App\Http\Controllers\Auth\UserProfileController;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Route;
 
@@ -71,6 +74,18 @@ Route::group(['prefix' => 'admin', 'as' => 'admin.', 'middleware' => ['auth']], 
 
     // Capex
     Route::resource('capexes', CapexController::class, ['except' => ['store', 'update', 'destroy']]);
+
+    // General
+    Route::resource('generals', GeneralController::class, ['except' => ['store', 'update', 'destroy']]);
+
+    // Dds
+    Route::resource('dds', DdController::class, ['except' => ['store', 'update', 'destroy']]);
+
+    // Balance
+    Route::resource('balances', BalanceController::class, ['except' => ['store', 'update', 'destroy']]);
+
+    // Oil Tariff
+    Route::resource('oil-tariffs', OilTariffController::class, ['except' => ['store', 'update', 'destroy']]);
 });
 
 Route::group(['prefix' => 'profile', 'as' => 'profile.', 'middleware' => ['auth']], function () {

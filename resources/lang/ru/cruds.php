@@ -113,4 +113,20 @@ return [
         'title'          => 'CAPEX',
         'title_singular' => 'CAPEX',
     ],
+    'general' => [
+        'title'          => 'Общее',
+        'title_singular' => 'Общее',
+    ],
+    'dd' => [
+        'title'          => 'ОДДС',
+        'title_singular' => 'ОДДС',
+    ],
+    'balance' => [
+        'title'          => 'Баланс',
+        'title_singular' => 'Баланс',
+    ],
+    'oilTariff' => [
+        'title'          => 'Тариф на переработку',
+        'title_singular' => 'Тариф на переработку',
+    ],
 ];
