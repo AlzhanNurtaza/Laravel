@@ -6,8 +6,8 @@ function getTicket()
     $email = auth()->user()->email;
 
     $parts = explode("@", $email);
-    $username =  $parts[0];
-    $domain = explode(".", $parts[1])[0];
+    $username =  auth()->user()->samaccountname;//$parts[0];
+    $domain = 'KMG';//explode(".", $parts[1])[0];
 
     //$username =  'd.doszhanov';
     //$domain = 'KMG';

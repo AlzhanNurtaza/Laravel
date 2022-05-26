@@ -57,6 +57,9 @@
                             @include('components.table.sort', ['field' => 'email_verified_at'])
                         </th>
                         <th>
+                            samaccountname
+                        </th>
+                        <th>
                             {{ trans('cruds.user.fields.roles') }}
                         </th>
                         <th>
@@ -84,6 +87,9 @@
                             </td>
                             <td>
                                 {{ $user->email_verified_at }}
+                            </td>
+                            <td>
+                                {{ $user->samaccountname }}
                             </td>
                             <td>
                                 @foreach($user->roles as $key => $entry)
