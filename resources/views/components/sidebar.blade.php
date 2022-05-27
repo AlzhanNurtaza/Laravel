@@ -222,8 +222,18 @@
                                     </a>
                                 </li>
                             @endcan
+                           
                         </ul>
                     </li>
+                @endcan
+                @can('long_loan_access')
+                                <li class="items-center">
+                                    <a class="{{ request()->is("admin/long-loans*") ? "sidebar-nav-active" : "sidebar-nav" }}" href="{{ route("admin.long-loans.index") }}">
+                                        <i class="fa-fw c-sidebar-nav-icon far fa-chart-bar">
+                                        </i>
+                                        {{ trans('cruds.longLoan.title') }}
+                                    </a>
+                                </li>
                 @endcan
                 
                 

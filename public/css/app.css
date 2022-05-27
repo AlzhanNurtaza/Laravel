@@ -2053,6 +2053,9 @@ select {
 .mb-12 {
 	margin-bottom: 3rem;
 }
+.mt-1 {
+	margin-top: 0.25rem;
+}
 .ml-3 {
 	margin-left: 0.75rem;
 }
@@ -2107,6 +2110,12 @@ select {
 .h-screen {
 	height: 100vh;
 }
+.h-350-px {
+	height: 350px;
+}
+.h-400-px {
+	height: 400px;
+}
 .h-50-px {
 	height: 50px;
 }
@@ -2115,12 +2124,6 @@ select {
 }
 .h-250-px {
 	height: 250px;
-}
-.h-350-px {
-	height: 350px;
-}
-.h-400-px {
-	height: 400px;
 }
 .h-150-px {
 	height: 150px;

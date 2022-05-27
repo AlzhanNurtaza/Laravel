@@ -2,8 +2,8 @@
 
 return [
     'userManagement' => [
-        'title'          => 'Управление пользователями',
-        'title_singular' => 'Управление пользователями',
+        'title'          => 'Пользователи',
+        'title_singular' => 'Пользователи',
     ],
     'permission' => [
         'title'          => 'Разрешения',
@@ -128,5 +128,9 @@ return [
     'oilTariff' => [
         'title'          => 'Тариф на переработку',
         'title_singular' => 'Тариф на переработку',
+    ],
+    'longLoan' => [
+        'title'          => 'АНПЗ - долгосрочные займы',
+        'title_singular' => 'АНПЗ - долгосрочные займы',
     ],
 ];

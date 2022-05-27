@@ -16,6 +16,7 @@ use App\Http\Controllers\Admin\OpexController;
 use App\Http\Controllers\Admin\OPiUController;
 use App\Http\Controllers\Admin\PermissionController;
 use App\Http\Controllers\Admin\ProductionVolumeController;
+use App\Http\Controllers\Admin\LongLoanController;
 use App\Http\Controllers\Admin\RoleController;
 use App\Http\Controllers\Admin\UserController;
 use App\Http\Controllers\Auth\UserProfileController;
@@ -86,6 +87,10 @@ Route::group(['prefix' => 'admin', 'as' => 'admin.', 'middleware' => ['auth']], 
 
     // Oil Tariff
     Route::resource('oil-tariffs', OilTariffController::class, ['except' => ['store', 'update', 'destroy']]);
+
+    // Long Loan
+    Route::resource('long-loans', LongLoanController::class, ['except' => ['store', 'update', 'destroy']]);
+
 });
 
 Route::group(['prefix' => 'profile', 'as' => 'profile.', 'middleware' => ['auth']], function () {
